@@ -31,6 +31,7 @@ FindAllOf=function() return {} end
 LoopAsync=function(interval,callback) TEST_LOOP=callback end
 ExecuteInGameThread=function(callback) error('No live scheduling allowed') end
 RegisterKeyBind=function() end
+RegisterBeginPlayPreHook=function(callback) TEST_BEGIN_PLAY=callback end
 Key={F6=6,F7=7,F8=8}
 dofile=function(path)
  local result=originalDofile(path)
@@ -52,6 +53,15 @@ function check(name,fn)
 end
 local S=_G.StoryDirector.state
 local command=_G.StoryDirector.command
+check('voiced includes every spoken category without text-only scenes',function()
+ command('voiced')
+ assert(S.mode=='story' and S.playlistMode=='voiced' and TEST_CONTEXT.total()==734)
+ local counts={scene=0,cinematic=0,voice=0}
+ for _,item in ipairs(S.playlist) do counts[item.kind]=counts[item.kind]+1 end
+ assert(counts.scene==411 and counts.cinematic==37 and counts.voice==286)
+ command('next');assert(S.storyIndex==2 and S.playlistMode=='voiced')
+ command('previous');assert(S.storyIndex==1)
+end)
 check('cutscenes count and first entry',function()
  command('cutscenes')
  assert(S.mode=='story' and S.playlistMode=='cutscenes' and #S.playlist==37 and TEST_CONTEXT.total()==37)
@@ -191,8 +201,10 @@ check('exact installed loop skips all text-only variants and keeps original orde
 end)
 check('Gary branch retains8 voiced variants from12',function()
  local scene=TEST_SCENES[1]
- local flat=TEST_LINE_LOOP({mode='story',playlistMode='dialogue',index=1},TEST_CONTEXT,function() return sentenceArray(scene) end,nil,scene)
- assert(#flat==8)
+ for _,mode in ipairs({'dialogue','voiced'}) do
+  local flat=TEST_LINE_LOOP({mode='story',playlistMode=mode,index=1},TEST_CONTEXT,function() return sentenceArray(scene) end,nil,scene)
+  assert(#flat==8)
+ end
 end)
 check('all and manual native selection keep unvoiced lines',function()
  local scene=TEST_SCENES[1]
@@ -247,6 +259,144 @@ check('runtime subtitle sources resolve without distributed text',function()
  StaticFindObject,LoadAsset=originalFind,originalLoad
 end)
 """)
+# Exercise the actual ownership, character and audio helpers with small engine doubles.
+def helper(start, stop, arguments, returns):
+    block=source[source.index(start):source.index(stop,source.index(start))]
+    return lua.execute('return function('+arguments+') '+block+' return '+returns+' end')
+lua.globals().TEST_MANAGER_HELPER=helper('local function manager()', 'local function mapNow()', 'player,pc,valid,actorWorld,full', 'manager')
+lua.globals().TEST_CLEAR_HELPER=helper('local function clearDialogueManager', 'local function stopConversation()', 'manager,valid,full', 'clearOrphanDialogueManagers,stopNativeDialogue')
+lua.globals().TEST_SWITCH_HELPER=helper('local function switchCharacter', 'local function sourceSentences', 'S,player,cheat,valid,full,simple,log,clearOrphanDialogueManagers,stopNativeDialogue', 'switchCharacter')
+lua.globals().TEST_AUDIO_HELPER=helper('local audioManagerKey', 'local function ensureMap', 'S,gi,gp,valid,full,log', 'ensureAudioSettings')
+lua.execute(r"""
+local function valid(value) return value and value:IsValid() end
+local function full(value) return valid(value) and value:GetFullName() or '' end
+local function object(name)
+ return {IsValid=function() return true end,GetFullName=function() return name end}
+end
+local function array(values)
+ values.ForEach=function(self,fn) for i,value in ipairs(values) do fn(i,{get=function() return value end}) end end
+ return values
+end
+check('controlled pawn owns selected manager even when older manager is first',function()
+ local old,new=object('old-manager'),object('new-manager')
+ local world=object('World /Game/SandyHouse_P.SandyHouse_P')
+ local p={NewDialogueManager=new};local controller={GetWorld=function() return world end}
+ local get=TEST_MANAGER_HELPER(function() return p end,function() return controller end,function(v) return v~=nil end,function() return full(world) end,full)
+ assert(get()==new)
+ p.NewDialogueManager=nil;assert(get()==nil)
+end)
+check('orphan manager widgets are removed and controlled widgets stay attached',function()
+ local function widget()
+  local w=object('widget');w.removed=0;w.hidden=0;w.stops=0
+  w.StopAllAnimations=function(self) self.stops=self.stops+1 end
+  w.SetVisibility=function(self,value) self.hidden=value end
+  w.RemoveFromParent=function(self) self.removed=self.removed+1 end
+  w.OnDialogueEnded=function() end
+  return w
+ end
+ local old,new=object('old-manager'),object('new-manager')
+ for _,m in ipairs({old,new}) do m.MainWidget=widget();m.DialogueWidget=widget();m.DialogueSpeaker=object('speaker');m.DialogueSpeaker.Stop=function(self) self.stopped=true end end
+ local ending=object('old-npc');ending['IsDialogueActive?']=true;ending.ends=0
+ ending.EndConversation=function(self) self.ends=self.ends+1 end
+ old.DialogueNpc=ending;old['CurrentDialogue?']=true;old.OnDialogueSpoken=function() end
+ local saved=FindAllOf;FindAllOf=function() return {old,new} end
+ local prune,stop=TEST_CLEAR_HELPER(function() return new end,valid,full)
+ prune();assert(old.MainWidget.removed==1 and old.MainWidget.hidden==2 and old.DialogueWidget.hidden==2 and old.DialogueSpeaker.stopped)
+ assert(new.MainWidget.removed==0 and not new.DialogueSpeaker.stopped)
+ stop();assert(new.MainWidget.removed==0 and new.DialogueWidget.hidden==2 and new.DialogueSpeaker.stopped)
+ assert(ending.ends==1,'Repeated cleanup restarted a closing fade')
+ FindAllOf=saved
+end)
+check('SandyHouse path does not turn a SpongeBob pawn into Sandy',function()
+ local sponge=object('BlueprintGeneratedClass /Game/BP_SpongeBob.BP_SpongeBob_C')
+ local sandy=object('BlueprintGeneratedClass /Game/BP_Sandy.BP_Sandy_C')
+ local p=object('BP_SpongeBob_C /Game/Maps/SandyHouse_P.PersistentLevel.BP_SpongeBob_C_0')
+ p.GetClass=function() return sponge end
+ local c=object('cheat');c.PlayableCharacter=array({sponge,sandy});local changes=0
+ c.PINE_ChangeCharacter=function(self,index) assert(index==1);changes=changes+1 end
+ local state={now=5};local pruned=0
+ local change=TEST_SWITCH_HELPER(state,function() return p end,function() return c end,valid,full,function(v) return (v or ''):lower():gsub('[^a-z0-9]','') end,function() end,function() pruned=pruned+1 end,function() end)
+ assert(not change('SpongeBob') and changes==0)
+ assert(change('Sandy') and changes==1)
+ assert(change('Sandy') and changes==1)
+ p.GetClass=function() return sandy end
+ assert(not change('Sandy') and state.switchAt==nil and pruned==1)
+end)
+check('speech audio restores copied preferences and reapplies after manager replacement',function()
+ local settings=object('SaveOptions_C copied');settings.MusicVolume=0.17;settings.SFXVolume=0.43;settings.SpeechVolume=0.79
+ local cfg=object('config1');local applied=0;cfg.ApplyAudioSettings=function() applied=applied+1 end
+ local g=object('game');g.SaveOptions=settings;g.GameConfigManager=cfg
+ local state={audioMode='normal'}
+ local apply=TEST_AUDIO_HELPER(state,function() return g end,function() error('Must use existing copied settings') end,valid,full,function() end)
+ assert(apply() and applied==1)
+ state.audioMode='speech';assert(apply() and applied==2)
+ assert(settings.MusicVolume==0 and settings.SFXVolume==0 and settings.SpeechVolume==1)
+ assert(apply() and applied==2)
+ local cfg2=object('config2');cfg2.ApplyAudioSettings=cfg.ApplyAudioSettings;g.GameConfigManager=cfg2
+ assert(apply() and applied==3 and cfg2.SaveOptionsRef==settings)
+ state.audioMode='normal';assert(apply() and applied==4)
+ assert(settings.MusicVolume==0.17 and settings.SFXVolume==0.43 and settings.SpeechVolume==0.79)
+end)
+check('audio commands publish their mode and reject unknown mixes',function()
+ local command=StoryDirector.command
+ command('audio speech');assert(StoryDirector.state.audioMode=='speech')
+ assert(TEST_WRITES[ROOT..'/status.json']:find('"audioMode":"speech"',1,true))
+ assert(not pcall(function() command('audio loud') end))
+ command('audio normal');assert(StoryDirector.state.audioMode=='normal')
+end)
+check('subtitle cleanup clears a caption whose native handle replaced ours',function()
+ local h=object('hud');h.CurrentSubtitleId=77;h.visible=true
+ h.HideSubtitles=function(self,id) if id<=0 or id==self.CurrentSubtitleId then self.visible=false end end
+ h:HideSubtitles(76);assert(h.visible)
+ dofile(ROOT..'/subtitles.lua').clear(h);assert(not h.visible)
+end)
+check('automatic dialogue filtering preserves unrelated setup actions',function()
+ local oldConstruct,oldFind=StaticConstructObject,StaticFindObject
+ StaticFindObject=function() return object('class') end
+ StaticConstructObject=function()
+  return {AsSpongeBob=setmetatable({}, {__newindex=function(t,k,v)
+   local copied={};for i,entry in ipairs(v) do local item={};for key,value in pairs(entry) do item[key]=value end;copied[i]=item end
+   rawset(t,k,array(copied))
+  end})}
+ end
+ local actor=object('Squidward-load-trigger');actor.Conditions='unchanged';actor.IsFinished=false
+ actor.IsA=function(self,path) return path=='/Script/Pineapple.PINE_GameplayTrigger' end
+ local keep1={ActionType=0,ActorParam='spatula',IsAffectingChildren=true}
+ local keep2={ActionType=7,StringParam='scene-state',IntegerParam=3}
+ actor.Actions=array({keep1,{ActionType=4,DialogueParam='briefing'},{ActionType=24,Bark='entry-reaction'},keep2})
+ TEST_CONTEXT.suppressAutomaticActor(actor)
+ assert(#actor.Actions==2 and actor.Actions[1].ActionType==0 and actor.Actions[1].ActorParam=='spatula' and actor.Actions[1].IsAffectingChildren)
+ assert(actor.Actions[2].ActionType==7 and actor.Actions[2].IntegerParam==3 and actor.Conditions=='unchanged' and actor.IsFinished==false)
+ StaticConstructObject,StaticFindObject=oldConstruct,oldFind
+end)
+check('native bark component is blocked before BeginPlay without changing explicit voice audio',function()
+ local component=object('native-barks');component.VolumeMultiplier=1;component.ShouldShowSubtitles=true;component.tick=true;component.stops=0
+ component.IsComponentTickEnabled=function(self) return self.tick end
+ component.SetComponentTickEnabled=function(self,value) self.tick=value end
+ component.SetVolumeMultiplier=function(self,value) self.VolumeMultiplier=value end
+ component.Stop=function(self) self.stops=self.stops+1 end
+ local actor=object('player');actor.BarkComponent=component
+ actor.IsA=function(self,path) return path=='/Script/Pineapple.PineappleCharacter' end
+ local explicit=object('direct-playlist-audio');explicit.VolumeMultiplier=1
+ TEST_A.state.audio=explicit
+ TEST_BEGIN_PLAY({get=function() return actor end})
+ assert(component.VolumeMultiplier==0 and not component.tick and not component.ShouldShowSubtitles and component.stops==1)
+ assert(#component.QueuedBarks==0 and explicit.VolumeMultiplier==1)
+ component.QueuedBarks={GetArrayNum=function() return 0 end}
+ TEST_CONTEXT.suppressNativeBarks(actor);assert(component.stops==1)
+ TEST_A.state.audio=nil
+end)
+check('BeginPlay suppresses map cutscenes and stale generations do nothing',function()
+ local actor=object('intro-trigger');actor.IsFinished=false;actor.CanRunMultipleTimes=true
+ actor.IsA=function(self,path) return path=='/Game/Blueprints/LevelScripts/BP_CutsceneStart.BP_CutsceneStart_C' end
+ TEST_BEGIN_PLAY({get=function() return actor end})
+ assert(actor.IsFinished and not actor.CanRunMultipleTimes)
+ local generation=StoryDirectorGeneration;StoryDirectorGeneration={};actor.IsFinished=false
+ TEST_BEGIN_PLAY({get=function() return actor end});assert(not actor.IsFinished)
+ StoryDirectorGeneration=generation
+end)
+""")
+
 # A release must contain references only, with no bundled dialogue/prose or personal paths.
 for filename in ['scenes.json','context.json','extras.json','entries.json']:
     def audit(value):

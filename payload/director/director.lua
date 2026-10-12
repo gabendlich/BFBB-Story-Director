@@ -19,7 +19,7 @@ local excludedMaps={["BattleArena_P"]=true,["MainMenu_P"]=true,["MP_CharacerSele
 for _,entry in ipairs(catalog.maps) do if not excludedMaps[entry.name] then tourMaps[#tourMaps+1]=entry end end
 catalog.maps=tourMaps
 local contextual
-local S = {mode='story', playlistMode='all', storyIndex=1, phase='idle', paused=true, index=1, completed=0, failed=0,
+local S = {mode='story', audioMode='normal', playlistMode='all', storyIndex=1, phase='idle', paused=true, index=1, completed=0, failed=0,
     title='Ready', message='Choose a scene to play.', now=0,
     phaseAt=0, lineAt=0, lastIndex=-1, statusAt=0, validation=false, voiceIndex=1, tourIndex=1}
 local function valid(o) return o and o:IsValid() end
@@ -46,7 +46,7 @@ local function log(event,detail)
 end
 local function status()
     local total=S.mode=='story' and contextual.total() or S.mode=='voices' and #(S.extras and S.extras.voices or {}) or S.mode=='tour' and #catalog.maps or #scenes
-    write('status.json',json({sessionId=SESSION,profile=PROFILE,phase=S.phase,singleScene=S.singleScene==true,sourceIndex=S.mode=='story' and contextual.sourceIndex() or S.index,mode=S.mode,status=S.paused and 'paused' or S.phase,sceneIndex=S.mode=='story' and S.storyIndex or S.mode=='voices' and S.voiceIndex or S.mode=='tour' and S.tourIndex or S.index,totalScenes=total,
+    write('status.json',json({sessionId=SESSION,profile=PROFILE,audioMode=S.audioMode,phase=S.phase,singleScene=S.singleScene==true,sourceIndex=S.mode=='story' and contextual.sourceIndex() or S.index,mode=S.mode,status=S.paused and 'paused' or S.phase,sceneIndex=S.mode=='story' and S.storyIndex or S.mode=='voices' and S.voiceIndex or S.mode=='tour' and S.tourIndex or S.index,totalScenes=total,
         playlistMode=S.mode=='story' and (S.playlistMode or 'all') or S.mode,title=S.title,map=S.map or '',lineIndex=S.line or 0,lineCount=S.lineCount or 0,message=S.message or '',error=S.error or '',currentText=S.text or '',completedCount=S.completed,failedCount=S.failed}))
 end
 local function gp() return StaticFindObject('/Script/Engine.Default__GameplayStatics') end
@@ -61,9 +61,10 @@ local function player()
 end
 local function actorWorld(a) return valid(a) and full(a:GetOuter().OwningWorld) or '' end
 local function manager()
-    local c=pc();if not valid(c) then return nil end
-    local world=full(c:GetWorld())
-    for _,m in ipairs(FindAllOf('BP_NewDialogueManager_C') or {}) do if actorWorld(m)==world then return m end end
+    -- Each playable pawn creates a manager. An earlier pawn's manager can survive a switch.
+    local p=player();local c=pc();if not valid(p) or not valid(c) then return nil end
+    local m=p.NewDialogueManager
+    return valid(m) and actorWorld(m)==full(c:GetWorld()) and m or nil
 end
 local function mapNow()
     local p=pc();if valid(p) then return full(p:GetWorld()):match('World (.-)%.') or '' end
@@ -90,18 +91,29 @@ local function restoreNpc()
     end
     S.originalNpc=nil
 end
-local function stopNativeDialogue()
-    local m=manager()
-    if valid(m) then
-        if m['CurrentDialogue?'] then m:OnDialogueSpoken(true) end
-        local n=m.DialogueNpc
-        m['CurrentDialogue?']=false
-        if valid(n) and n['IsDialogueActive?'] then n:EndConversation(0) end
-        if valid(m.AudioManager) then m.AudioManager:ClearTimerHandler();m.AudioManager:UnbindSpeakerEvents() end
-        if valid(m.DialogueWidget) then m.DialogueWidget:StopAllAnimations();m.DialogueWidget:SetVisibility(2) end
-        if valid(m.MainWidget) then m.MainWidget:OnDialogueEnded() end
-        if valid(m.DialogueSpeaker) then m.DialogueSpeaker:Stop() end
+local function clearDialogueManager(m,orphan)
+    local wasActive=m['CurrentDialogue?']
+    if wasActive then m:OnDialogueSpoken(true) end
+    local n=m.DialogueNpc
+    m['CurrentDialogue?']=false
+    if wasActive and valid(n) and n['IsDialogueActive?'] then n:EndConversation(0) end
+    if valid(m.AudioManager) then m.AudioManager:ClearTimerHandler();m.AudioManager:UnbindSpeakerEvents() end
+    if valid(m.DialogueWidget) then m.DialogueWidget:StopAllAnimations();m.DialogueWidget:SetVisibility(2) end
+    if valid(m.MainWidget) then
+        m.MainWidget:StopAllAnimations();m.MainWidget:OnDialogueEnded()
+        if orphan then m.MainWidget:SetVisibility(2);m.MainWidget:RemoveFromParent() end
     end
+    if valid(m.DialogueSpeaker) then m.DialogueSpeaker:Stop() end
+end
+local function clearOrphanDialogueManagers()
+    local current=manager()
+    for _,m in ipairs(FindAllOf('BP_NewDialogueManager_C') or {}) do
+        if valid(m) and full(m)~=full(current) then clearDialogueManager(m,true) end
+    end
+end
+local function stopNativeDialogue()
+    clearOrphanDialogueManagers()
+    local m=manager();if valid(m) then clearDialogueManager(m,false) end
 end
 local function stopConversation()
     stopNativeDialogue()
@@ -110,7 +122,7 @@ local function stopConversation()
     if contextual then contextual.cleanup() end
 end
 local function resetPhase()
-    stopConversation();S.phase='prepare';S.phaseAt=S.now;S.stableAt=nil;S.error=nil;S.line=0;S.text='';S.lastIndex=-1;S.switchAt=nil;S.sublevelAt=nil;S.captionText=nil;S.pauseAt=S.paused and S.now or nil
+    stopConversation();S.phase='prepare';S.phaseAt=S.now;S.stableAt=nil;S.error=nil;S.line=0;S.text='';S.lastIndex=-1;S.sublevelAt=nil;S.captionText=nil;S.pauseAt=S.paused and S.now or nil
 end
 local function nextScene(delta,completed)
     if completed and S.singleScene then
@@ -244,12 +256,26 @@ end
 local function switchCharacter(name)
     if not name or name=='Any' then return false end
     local p=player();if not valid(p) then return false end
-    if simple(full(p)):find(simple(name),1,true) then S.switchAt=nil;return false end
-    if S.switchAt then assert(S.now-S.switchAt<30,'Character change timed out: '..name..' current='..full(p));return true end
     local c=cheat();assert(valid(c),'Character switching is unavailable')
-    local index=nil
-    c.PlayableCharacter:ForEach(function(i,v) if simple(full(v:get())):find(simple(name),1,true) then index=i-1 end end)
-    assert(index~=nil,'Character is unavailable: '..name)
+    local index,target
+    c.PlayableCharacter:ForEach(function(i,v)
+        local class=v:get()
+        if simple(full(class):match('([^./]+)$'))==simple('BP_'..name..'_C') or simple(full(class):match('([^./]+)$'))==simple(name..'_C') then index=i-1;target=class end
+    end)
+    -- Match only the class name: a SpongeBob pawn in SandyHouse is still SpongeBob.
+    if not target then
+        c.PlayableCharacter:ForEach(function(i,v)
+            local class=v:get();local className=full(class):match('([^./]+)$') or ''
+            if simple(className):find(simple(name),1,true) then index=i-1;target=class end
+        end)
+    end
+    assert(index~=nil and valid(target),'Character is unavailable: '..name)
+    if full(p:GetClass())==full(target) then
+        if S.switchAt then log('CHARACTER_READY',name..' pawn='..full(p));clearOrphanDialogueManagers() end
+        S.switchAt=nil;return false
+    end
+    if S.switchAt then assert(S.now-S.switchAt<30,'Character change timed out: '..name..' current='..full(p));return true end
+    stopNativeDialogue()
     S.switchAt=S.now;log('CHARACTER_CHANGE',name..' from '..full(p));c:PINE_ChangeCharacter(index);return true
 end
 local function sourceSentences(a,scene)
@@ -275,7 +301,7 @@ local function startScene(scene)
     local flat,variants={},{}
     sourceSentences(a,scene):ForEach(function(sentenceIndex,s)
         s:get().SentenceData:ForEach(function(variantIndex,v)
-            if S.playlistMode~='dialogue' or S.mode~='story' or contextual.lineIsVoiced(S.index,sentenceIndex-1,variantIndex-1) then
+            if (S.playlistMode~='dialogue' and S.playlistMode~='voiced') or S.mode~='story' or contextual.lineIsVoiced(S.index,sentenceIndex-1,variantIndex-1) then
                 flat[#flat+1]=s:get();variants[#variants+1]=v:get()
             end
         end)
@@ -302,10 +328,12 @@ local function startScene(scene)
         if valid(n.PINE_Culling) then n.PINE_Culling.IsMeshCullingEnabled=false;n.PINE_Culling.ShouldCullAnimationsWithMesh=false end
         placeAtSpeaker(n,p)
         log('PREPARE_NATIVE_DIALOGUE',scene.id)
-        local m=manager();if valid(m) then m['CurrentDialogue?']=false end
+        local m=manager();assert(valid(m),'The player dialogue system is not ready')
+        if valid(m.MainWidget) then m.MainWidget:SetVisibility(0);if not m.MainWidget:IsInViewport() then m.MainWidget:AddToViewport(0) end end
+        m['CurrentDialogue?']=false
         p:StartDialogueWithNPC(n)
         if not n['IsDialogueActive?'] then n:StartDialogueWithPlayer(p) end
-        p.NearbyNPC=n;p.NewDialogueManager=m;m.PlayerCharacter=p;m.DialogueNpc=n;m.EndOfDialogueResult=0
+        p.NearbyNPC=n;m.PlayerCharacter=p;m.DialogueNpc=n;m.EndOfDialogueResult=0
         if not m['CurrentDialogue?'] or m.CurrentDialogueIndex~=0 then showLine(n,0) end
     end
     S.heardLines={};S.lastAdvanceAt=-1
@@ -315,6 +343,7 @@ local function startScene(scene)
     write('checkpoint.txt',tostring(S.index))
 end
 local audioManagerKey
+local normalAudioSettings
 local function ensureAudioSettings()
     local g=gi();if not valid(g) then return false end
     if not valid(g.SaveOptions) then
@@ -328,7 +357,11 @@ local function ensureAudioSettings()
         g.HasLoadedUserSettings=true
     end
     local cfg=g.GameConfigManager;if not valid(cfg) then return false end
-    local key=full(cfg)..':'..full(g.SaveOptions)
+    local options=g.SaveOptions
+    if not normalAudioSettings then normalAudioSettings={MusicVolume=options.MusicVolume,SFXVolume=options.SFXVolume,SpeechVolume=options.SpeechVolume} end
+    local volumes=S.audioMode=='speech' and {MusicVolume=0,SFXVolume=0,SpeechVolume=1} or normalAudioSettings
+    for name,value in pairs(volumes) do options[name]=value end
+    local key=full(cfg)..':'..full(options)..':'..S.audioMode
     if audioManagerKey~=key then
         cfg.SaveOptionsRef=g.SaveOptions
         cfg:ApplyAudioSettings()
@@ -339,6 +372,7 @@ local function ensureAudioSettings()
     return true
 end
 local function ensureMap(map,requirePlayer)
+    contextual.suppressAutomaticCinematics()
     if mapNow():lower()==map:lower() and (requirePlayer==false or valid(player())) then
         if not ensureAudioSettings() then return false end
         local g=gi();local engine=FindFirstOf('GameEngine')
@@ -346,7 +380,12 @@ local function ensureMap(map,requirePlayer)
             g.GameConfigManager:ChangeGamma(g.Default_Gamma);log('DISPLAY_DEFAULT_RESTORED','gamma='..engine.DisplayGamma)
         end
         if not S.stableAt then S.stableAt=S.now end
-        return S.now-S.stableAt>=(S.validation and 0.25 or 2.0)
+        local ready=S.now-S.stableAt>=(S.validation and 0.25 or 2.0)
+        if ready then
+            StaticFindObject('/Script/Pineapple.Default__PINE_UiUtils'):HideLoadingScreen(g)
+            clearOrphanDialogueManagers()
+        end
+        return ready
     end
     S.stableAt=nil
     if S.phase~='travel' then
@@ -476,9 +515,9 @@ local function tourTick()
 end
 local function command(cmd)
     local op,arg=cmd:match('^(%S+)%s*(.-)%s*$')
-    if op=='play' or op=='voices' or op=='dialogue' or op=='cutscenes' or op=='story' or op=='scenes' or op=='scene' or op=='tour' then S.singleScene=false end
-    if op=='play' or op=='voices' or op=='dialogue' or op=='cutscenes' then
-        local playlistMode=(op=='dialogue' or op=='cutscenes') and op or 'all'
+    if op=='play' or op=='voices' or op=='dialogue' or op=='voiced' or op=='cutscenes' or op=='story' or op=='scenes' or op=='scene' or op=='tour' then S.singleScene=false end
+    if op=='play' or op=='voices' or op=='dialogue' or op=='voiced' or op=='cutscenes' then
+        local playlistMode=(op=='dialogue' or op=='voiced' or op=='cutscenes') and op or 'all'
         if S.mode=='story' and S.playlistMode==playlistMode and not S.paused and not S.validation and S.phase~='complete' then log('COMMAND_IGNORED','Playlist already playing: '..playlistMode);return end
         S.mode='story';contextual.start(1,playlistMode);S.manual=false;S.validation=false;S.checkLocations=false;S.paused=false;resetPhase()
     elseif op=='watch' then
@@ -487,6 +526,10 @@ local function command(cmd)
     elseif op=='story' then local index=tonumber(arg);assert(index and index>=1 and index<=contextual.total('all'),'Story index is out of range');S.mode='story';contextual.start(index,'all');S.manual=false;S.validation=false;S.checkLocations=false;S.paused=false;resetPhase()
     elseif op=='scenes' then S.mode='scenes';S.index=1;S.manual=false;S.validation=false;S.checkLocations=false;S.paused=false;resetPhase()
     elseif op=='collect-garbage' then log('GC_REQUESTED','Replay stress test');StaticFindObject('/Script/Engine.Default__KismetSystemLibrary'):CollectGarbage()
+    elseif op=='audio' then
+        assert(arg=='speech' or arg=='normal','Choose audio speech or audio normal')
+        S.audioMode=arg;audioManagerKey=nil;ensureAudioSettings()
+        log('AUDIO_MODE',arg)
     elseif op=='audio-diagnose' then
         local g=gi();local cfg=g.GameConfigManager;local opts=g.SaveOptions
         log('AUDIO_SETTINGS','loaded='..tostring(g.HasLoadedUserSettings)..' options='..full(opts)..' manager='..full(cfg)..' managerOptions='..(valid(cfg) and full(cfg.SaveOptionsRef) or ''))
@@ -528,6 +571,8 @@ local last=os.clock()
 local function tick()
     local clock=os.clock();local delta=clock-last;last=clock;S.now=S.now+math.max(0.05,math.min(delta,1))
     local f=io.open(ROOT..'/command.txt','r');if f then local cmd=f:read('*l');f:close();os.remove(ROOT..'/command.txt');if cmd then command(cmd) end end
+    clearOrphanDialogueManagers()
+    contextual.suppressNativeBarks()
     if not S.paused then
         if S.phase=='idle' then S.phase='prepare' end
         if S.mode=='story' then contextual.tick() elseif S.mode=='scenes' then scenesTick() elseif S.mode=='voices' then voicesTick() else tourTick() end
@@ -537,6 +582,11 @@ end
 local queued=false
 local generation={}
 _G.StoryDirectorGeneration=generation
+RegisterBeginPlayPreHook(function(context)
+    if _G.StoryDirectorGeneration~=generation then return end
+    local actor=context:get()
+    contextual.suppressAutomaticActor(actor)
+end)
 LoopAsync(250,function()
     if _G.StoryDirectorGeneration~=generation then return true end
     if queued then return false end;queued=true

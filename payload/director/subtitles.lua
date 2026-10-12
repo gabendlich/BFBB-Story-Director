@@ -80,4 +80,8 @@ function M.cinematic(line,voice)
     if result~='' then cache[key]=result end
     return result
 end
+-- Native callers replace subtitle IDs. A non-positive ID is the game's explicit clear-all operation.
+function M.clear(hud)
+    if hud and hud:IsValid() then hud:HideSubtitles(-1) end
+end
 return M

@@ -2,7 +2,7 @@
 
 Mit Story Director kannst du Dialoge und Zwischensequenzen aus **SpongeBob SquarePants: Battle for Bikini Bottom – Rehydrated** direkt im Spiel abspielen. Du wählst eine Szene aus, und der Player lädt den passenden Schauplatz.
 
-[Windows-Version herunterladen](https://github.com/gabendlich/BFBB-Story-Director/releases/tag/v0.1.0)
+[Windows-Version herunterladen](https://github.com/gabendlich/BFBB-Story-Director/releases/latest)
 
 ## Loslegen
 
@@ -41,7 +41,7 @@ Die Liste enthält 803 Einträge: 480 Dialog- oder Informationseinträge, 37 Zwi
 
 Der Player spielt Szenen ab, übernimmt aber keine Sprungpassagen oder Kämpfe. Wird ein Gespräch unterbrochen, versucht er es höchstens zweimal erneut. Danach hält er mit einer Fehlermeldung an.
 
-Mit dem portablen Player wurden ein Gespräch, eine Reaktion, eine Zwischensequenz und eine Szene mit Orts- und Figurenwechsel getestet. Die ursprünglichen Spielstände waren danach unverändert. Nicht jeder Eintrag und nicht jede Spielversion wurde damit geprüft.
+Im Spiel geprüft wurden das Intro, Bubble Buddy nach einem Figurenwechsel, Thaddäus' Haus, Sandys Kuppel, Rock Bottom, eine Reaktion und ein Kameraflug. Kurze Aufnahmen wurden außerdem auf hängen gebliebene Untertitel und doppelte Dialogstarts beim Ortswechsel geprüft. Die normalen Spielstände hatten danach dieselben Prüfsummen. Nicht jeder Eintrag und nicht jede Spielversion wurde damit geprüft.
 
 Die Spielinhalte werden aus deiner Installation geladen. Im Download sind keine Spielaufnahmen, Audiodateien, Level, Spielstände oder Dialogtranskripte enthalten.
 

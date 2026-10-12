@@ -35,5 +35,32 @@
     "Ordinary launch remains inactive",
     "Correct token with wrong actual save directory remains inactive",
     "Matching token and actual replay save directory activates"
-  ]
+  ],
+  "release": "0.1.1",
+  "regressionChecks": {
+    "originalPlaylistIndicesCompleted": [
+      17,
+      20,
+      28,
+      29,
+      30,
+      118,
+      124,
+      125,
+      130,
+      131,
+      395
+    ],
+    "openingIndex1": "First 22 seconds checked in an OBS recording; entire opening not completed in the short regression run.",
+    "visuals": "Recorded frames show advancing Bubble Buddy captions, a single dialogue window after character changes, and Sandy without the stale loading screen.",
+    "audio": "Opening, Squidward and Sandy no longer contain their previous repeated first-line waveform pattern.",
+    "normalSaveFilesUnchanged": 8,
+    "codeSHA256": {
+      "director.lua": "d191000e342cfffbcb89e89c1013b1cc16793f2b0774496cfd5069d2e84c4413",
+      "contextual.lua": "fb7093526d9424798b4fddf947be40588a7bbe56e60dd1bf0ef15659e5507801",
+      "playlist.lua": "8888b997c299c7e8470404a05c5010f8e15f9a7e0102b35e1cce33d1b9cee011",
+      "subtitles.lua": "c02ad1da3dfd5216fb378c702f1a212ee16c5ae9daf18ea02ee7858cee089381"
+    },
+    "scope": "The final automatic-bark gate was checked separately with Sandy's briefing/reminder and the explicit DriedOut3_b/Wormy entries. Earlier short regression recordings cover the other fixes. This does not certify every playlist entry or separation of effects embedded in a voice asset."
+  }
 }

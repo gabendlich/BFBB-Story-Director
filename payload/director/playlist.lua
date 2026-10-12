@@ -46,9 +46,9 @@ function M.new(context, catalog, extras)
         end
         sceneData[sceneIndex] = info
     end
-    local lists = {all=source, dialogue={}, cutscenes={}}
-    local sourceIndices = {all={}, dialogue={}, cutscenes={}}
-    local positions = {all={}, dialogue={}, cutscenes={}}
+    local lists = {all=source, dialogue={}, cutscenes={}, voiced={}}
+    local sourceIndices = {all={}, dialogue={}, cutscenes={}, voiced={}}
+    local positions = {all={}, dialogue={}, cutscenes={}, voiced={}}
     for sourceIndex, item in ipairs(source) do
         sourceIndices.all[sourceIndex] = sourceIndex
         positions.all[sourceIndex] = sourceIndex
@@ -59,6 +59,13 @@ function M.new(context, catalog, extras)
             local info = assert(sceneData[item.sceneIndex],
                 'Playlist references missing native scene ' .. tostring(item.sceneIndex))
             if info.voicedLineCount > 0 then mode = 'dialogue' end
+        end
+        local isVoiced = mode ~= nil or item.kind == 'voice'
+        if isVoiced then
+            local position = #lists.voiced + 1
+            lists.voiced[position] = item
+            sourceIndices.voiced[position] = sourceIndex
+            positions.voiced[sourceIndex] = position
         end
         if mode then
             local position = #lists[mode] + 1
@@ -83,7 +90,7 @@ function M.new(context, catalog, extras)
         return #lists[selectedMode(mode)]
     end
     function P:counts()
-        return {all=#lists.all, dialogue=#lists.dialogue, cutscenes=#lists.cutscenes}
+        return {all=#lists.all, dialogue=#lists.dialogue, cutscenes=#lists.cutscenes, voiced=#lists.voiced}
     end
     function P:sourceIndex(mode, filteredPosition)
         return sourceIndices[selectedMode(mode)][filteredPosition]

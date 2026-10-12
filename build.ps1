@@ -1,12 +1,12 @@
-[CmdletBinding()]
+﻿[CmdletBinding()]
 param([string]$RuntimeArchive, [switch]$NoZip)
 $ErrorActionPreference='Stop'
 $root=[IO.Path]::GetFullPath($PSScriptRoot)
 . (Join-Path $root 'tools\Package-Release.ps1')
 $expectedArchiveHash='3c72142a383e25e9f9553ac9e4d5677aa572e98cb369cac57200efb2e381e603'
 $archiveName='UE4SS_v3.0.1-1164-g5e627997.zip'
-$releaseName='StoryDirector-0.1.0-win-x64.zip'
-$sourceReleaseName='StoryDirector-0.1.0-source.zip'
+$releaseName='StoryDirector-0.1.1-win-x64.zip'
+$sourceReleaseName='StoryDirector-0.1.1-source.zip'
 $sourceFiles=@('src/Program.cs','src/PlayerBackend.cs','src/PlayerForm.cs')
 $documentFiles=@('README.md','README.de.md','LICENSE','THIRD-PARTY-NOTICES.md')
 $buildSupportFiles=@('build.ps1','.gitignore','tools/Package-Release.ps1','tests/Test-Packaging.ps1','tests/test_portable_core.py','tests/portable-core-results.json','tests/live-validation.json','.github/workflows/build.yml')

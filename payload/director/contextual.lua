@@ -37,12 +37,58 @@ return function(A)
         end
         S.sequence=nil;S.sequenceActor=nil
     end
-    function M.cleanup() hideCaption();cleanupCinematic() end
+    function M.cleanup() hideCaption();cleanupCinematic();subtitles.clear(hud()) end
     function M.pause(paused)
         if A.valid(S.sequence) then if paused then S.sequence:Pause() else S.sequence:Play() end end
     end
     local function seconds(q)
         return (q.Time.FrameNumber.Value+q.Time.SubFrame)*q.Rate.Denominator/q.Rate.Numerator
+    end
+    function M.suppressNativeBarks(actor)
+        actor=actor or A.player()
+        if not A.valid(actor) then return end
+        local component=actor.BarkComponent
+        if not A.valid(component) then return end
+        -- Scripted idle reactions bypass gameplay triggers. Block their dedicated native component
+        -- before playback; explicit playlist voices use a separate SpawnSound2D component.
+        if component.VolumeMultiplier~=0 or component:IsComponentTickEnabled() or component.ShouldShowSubtitles then
+            component:SetVolumeMultiplier(0)
+            component:SetComponentTickEnabled(false)
+            component.ShouldShowSubtitles=false
+            component:Stop();component.QueuedBarks={}
+            A.log('AUTOMATIC_BARKS_SUPPRESSED',A.full(actor))
+        elseif component.QueuedBarks:GetArrayNum()>0 then component.QueuedBarks={} end
+    end
+    function M.suppressAutomaticActor(actor)
+        if not A.valid(actor) then return end
+        if actor:IsA('/Script/Pineapple.PineappleCharacter') then M.suppressNativeBarks(actor) end
+        if actor:IsA('/Script/Pineapple.PINE_GameplayTrigger') then
+            local keep,removed={},0
+            actor.Actions:ForEach(function(_,value)
+                local action=value:get()
+                if action.ActionType==4 or action.ActionType==24 then removed=removed+1 else keep[#keep+1]=action end
+            end)
+            if removed>0 then
+                -- Copy through a separate reflected array before replacing the original backing storage.
+                -- Other actions (including hiding scene props) keep their original values and order.
+                local copy=StaticConstructObject(StaticFindObject('/Script/Pineapple.PINE_DialogueEntryDataAsset'),actor)
+                copy.AsSpongeBob.ActionsAfterDialogFinishes=keep
+                local retained={}
+                copy.AsSpongeBob.ActionsAfterDialogFinishes:ForEach(function(_,value) retained[#retained+1]=value:get() end)
+                actor.Actions=retained
+                A.log('AUTOMATIC_DIALOGUE_SUPPRESSED',A.full(actor)..' dialogue/bark actions='..removed)
+            end
+        end
+        if actor:IsA('/Game/Blueprints/LevelScripts/BP_CutsceneStart.BP_CutsceneStart_C') then
+            -- ReactToTrigger returns before playback when both of these authored guards are set.
+            -- Do not write the persistence component or mark any quest complete.
+            actor.IsFinished=true;actor.CanRunMultipleTimes=false
+        end
+    end
+    function M.suppressAutomaticCinematics()
+        for _,class in ipairs({'BP_CutsceneStart_C','PINE_GameplayTrigger'}) do
+            for _,actor in ipairs(FindAllOf(class) or {}) do if sameWorld(actor) then M.suppressAutomaticActor(actor) end end
+        end
     end
     local function stopOriginalCinematics()
         for _,actor in ipairs(FindAllOf('LevelSequenceActor') or {}) do
@@ -51,7 +97,7 @@ return function(A)
         for _,owner in ipairs(FindAllOf('BP_CutsceneStart_C') or {}) do
             if sameWorld(owner) then
                 local p=owner['Sequence Player'];if A.valid(p) then p:StopAtCurrentTime() end
-                owner:K2_DestroyActor()
+                M.suppressAutomaticActor(owner)
             end
         end
         local c=A.pc();c:SetActiveSequenceScript(nil);c:ResetIgnoreInputFlags()
@@ -60,6 +106,7 @@ return function(A)
     end
     function M.prepareNativeView()
         A.stopNativeDialogue()
+        subtitles.clear(hud())
         stopOriginalCinematics()
         local p=A.player()
         if A.valid(p) then

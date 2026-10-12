@@ -2,7 +2,7 @@
 
 Play dialogue and cutscenes from **SpongeBob SquarePants: Battle for Bikini Bottom – Rehydrated** directly in the game. Pick a scene from the list and the player loads its location.
 
-[Download for Windows](https://github.com/gabendlich/BFBB-Story-Director/releases/tag/v0.1.0) · [Deutsche Anleitung](README.de.md)
+[Download for Windows](https://github.com/gabendlich/BFBB-Story-Director/releases/latest) · [Deutsche Anleitung](README.de.md)
 
 ## Getting started
 
@@ -41,7 +41,7 @@ The list has 803 entries: 480 dialogue or information entries, 37 cutscenes and 
 
 This replays scenes; it doesn't play through the platforming or combat. If a conversation is interrupted, the player retries it up to twice, then stops with an error.
 
-The portable player has been tested with a conversation, a reaction, a cutscene and a scene requiring a map and character change. Original save files were unchanged after those tests. That isn't a full test of every entry or every game version.
+Live checks cover the opening, Bubble Buddy after a character change, Squidward's house, Sandy's dome, Rock Bottom, a reaction and a flythrough. Short recordings were also checked for stale captions and repeated room-entry dialogue. Normal saves kept their original file hashes. This isn't a full test of every entry or every game version.
 
 Game content is read from your own installation. The download contains no game audio, levels, saves or dialogue transcripts.
 

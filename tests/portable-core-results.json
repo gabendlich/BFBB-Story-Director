@@ -2,13 +2,18 @@
   "schemaVersion": 1,
   "scope": "Pure Lua5.4 mocked integration using portable core and metadata; no game or live profile writes. Does not verify Unreal callbacks, save API isolation, or audio/camera behavior.",
   "codeSHA256": {
-    "director.lua": "94624a20a78f2c3f165c6f3844160f964481e01a96644fbba306dc5b3956db1b",
-    "contextual.lua": "e9f1d70e0b18c8bd0b941ba6936f37f0bdce5e347e50500e41a85c0cc03d0115",
-    "playlist.lua": "b13ee392db94c1d28cb74e20430c396ec362b1c1046be43f3a9d63160eece02c",
-    "subtitles.lua": "de36bb0f3f96814e9ddcf693af9ebc1fc1e7d5504d3e1464c2704334dd4d082d"
+    "director.lua": "d191000e342cfffbcb89e89c1013b1cc16793f2b0774496cfd5069d2e84c4413",
+    "contextual.lua": "fb7093526d9424798b4fddf947be40588a7bbe56e60dd1bf0ef15659e5507801",
+    "playlist.lua": "8888b997c299c7e8470404a05c5010f8e15f9a7e0102b35e1cce33d1b9cee011",
+    "subtitles.lua": "c02ad1da3dfd5216fb378c702f1a212ee16c5ae9daf18ea02ee7858cee089381"
   },
   "passed": true,
   "tests": [
+    {
+      "name": "voiced includes every spoken category without text-only scenes",
+      "passed": true,
+      "error": null
+    },
     {
       "name": "cutscenes count and first entry",
       "passed": true,
@@ -118,9 +123,54 @@
       "name": "runtime subtitle sources resolve without distributed text",
       "passed": true,
       "error": null
+    },
+    {
+      "name": "controlled pawn owns selected manager even when older manager is first",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "orphan manager widgets are removed and controlled widgets stay attached",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "SandyHouse path does not turn a SpongeBob pawn into Sandy",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "speech audio restores copied preferences and reapplies after manager replacement",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "audio commands publish their mode and reject unknown mixes",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "subtitle cleanup clears a caption whose native handle replaced ours",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "automatic dialogue filtering preserves unrelated setup actions",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "native bark component is blocked before BeginPlay without changing explicit voice audio",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "BeginPlay suppresses map cutscenes and stale generations do nothing",
+      "passed": true,
+      "error": null
     }
   ],
-  "testCount": 22,
+  "testCount": 32,
   "profileMismatchGuardCases": 2,
   "allLuaParsed": true,
   "metadataContainsNoTranscriptOrPersonalPaths": true,

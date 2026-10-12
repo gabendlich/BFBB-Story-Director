@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.IO;
@@ -534,7 +534,7 @@ namespace StoryDirector
         }
         public void SendCommand(string command)
         {
-            if (!Regex.IsMatch(command, @"\A(?:pause|resume|next|previous|quit|watch [1-9][0-9]*|story [1-9][0-9]*)\z")) throw new ArgumentException("This playback command is not supported.");
+            if (!Regex.IsMatch(command, @"\A(?:pause|resume|next|previous|quit|voiced|dialogue|cutscenes|audio (?:speech|normal)|watch [1-9][0-9]*|story [1-9][0-9]*)\z")) throw new ArgumentException("This playback command is not supported.");
             Match index = Regex.Match(command, @" (\d+)$");
             int requestedIndex;
             if (index.Success && (!Int32.TryParse(index.Groups[1].Value, out requestedIndex) || requestedIndex > 803))
