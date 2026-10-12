@@ -1,0 +1,5623 @@
+[
+    {
+        "Index":  1,
+        "Title":  "Opening cinematic",
+        "Location":  "Opening",
+        "Kind":  "Cutscene",
+        "Character":  "Multiple speakers"
+    },
+    {
+        "Index":  2,
+        "Title":  "Gary Briefing",
+        "Location":  "SpongeBob\u0027s House",
+        "Kind":  "Dialogue",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  3,
+        "Title":  "Gary Reminder",
+        "Location":  "SpongeBob\u0027s House",
+        "Kind":  "Dialogue",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  4,
+        "Title":  "Information 00",
+        "Location":  "SpongeBob\u0027s House",
+        "Kind":  "Information",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  5,
+        "Title":  "Information 01",
+        "Location":  "SpongeBob\u0027s House",
+        "Kind":  "Information",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  6,
+        "Title":  "Information 02",
+        "Location":  "SpongeBob\u0027s House",
+        "Kind":  "Information",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  7,
+        "Title":  "Information 03",
+        "Location":  "SpongeBob\u0027s House",
+        "Kind":  "Information",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  8,
+        "Title":  "Information 04",
+        "Location":  "SpongeBob\u0027s House",
+        "Kind":  "Information",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  9,
+        "Title":  "Information 05",
+        "Location":  "SpongeBob\u0027s House",
+        "Kind":  "Information",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  10,
+        "Title":  "Information 06",
+        "Location":  "SpongeBob\u0027s House",
+        "Kind":  "Information",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  11,
+        "Title":  "Information 07",
+        "Location":  "SpongeBob\u0027s House",
+        "Kind":  "Information",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  12,
+        "Title":  "Information 08",
+        "Location":  "SpongeBob\u0027s House",
+        "Kind":  "Information",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  13,
+        "Title":  "Information 09",
+        "Location":  "SpongeBob\u0027s House",
+        "Kind":  "Information",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  14,
+        "Title":  "Information 10",
+        "Location":  "SpongeBob\u0027s House",
+        "Kind":  "Information",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  15,
+        "Title":  "Information 11",
+        "Location":  "SpongeBob\u0027s House",
+        "Kind":  "Information",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  16,
+        "Title":  "Information 12",
+        "Location":  "SpongeBob\u0027s House",
+        "Kind":  "Information",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  17,
+        "Title":  "Entering the kitchen in SpongeBob\u0027s house",
+        "Location":  "SpongeBob\u0027s House",
+        "Kind":  "Reaction",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  18,
+        "Title":  "Entering the bedroom in SpongeBob\u0027s house",
+        "Location":  "SpongeBob\u0027s House",
+        "Kind":  "Reaction",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  19,
+        "Title":  "Entering the attic in SpongeBob\u0027s house",
+        "Location":  "SpongeBob\u0027s House",
+        "Kind":  "Reaction",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  20,
+        "Title":  "Bikini Bottom flythrough",
+        "Location":  "Bikini Bottom",
+        "Kind":  "Cutscene",
+        "Character":  "French Narrator"
+    },
+    {
+        "Index":  21,
+        "Title":  "Box Office Guy Briefing",
+        "Location":  "Bikini Bottom",
+        "Kind":  "Dialogue",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  22,
+        "Title":  "Box Office Guy Briefing (alternative)",
+        "Location":  "Bikini Bottom",
+        "Kind":  "Dialogue",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  23,
+        "Title":  "Box Office Guy Reminder",
+        "Location":  "Bikini Bottom",
+        "Kind":  "Dialogue",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  24,
+        "Title":  "Box Office Guy After",
+        "Location":  "Bikini Bottom",
+        "Kind":  "Dialogue",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  25,
+        "Title":  "Bubble Buddy Briefing (variant 1)",
+        "Location":  "Bikini Bottom",
+        "Kind":  "Dialogue",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  26,
+        "Title":  "Bubble Buddy Briefing",
+        "Location":  "Bikini Bottom",
+        "Kind":  "Dialogue",
+        "Character":  "Sandy"
+    },
+    {
+        "Index":  27,
+        "Title":  "Bubble Buddy Reminder (variant 1)",
+        "Location":  "Bikini Bottom",
+        "Kind":  "Dialogue",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  28,
+        "Title":  "Bubble Buddy Reminder",
+        "Location":  "Bikini Bottom",
+        "Kind":  "Dialogue",
+        "Character":  "Sandy"
+    },
+    {
+        "Index":  29,
+        "Title":  "Bubble Buddy Briefing (variant 2)",
+        "Location":  "Bikini Bottom",
+        "Kind":  "Dialogue",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  30,
+        "Title":  "Bubble Buddy Reminder (variant 2)",
+        "Location":  "Bikini Bottom",
+        "Kind":  "Dialogue",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  31,
+        "Title":  "Bubble Briefing",
+        "Location":  "Bikini Bottom",
+        "Kind":  "Dialogue",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  32,
+        "Title":  "Bubble Reminder",
+        "Location":  "Bikini Bottom",
+        "Kind":  "Dialogue",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  33,
+        "Title":  "Fake SpongeBob Dream Briefing",
+        "Location":  "Bikini Bottom",
+        "Kind":  "Dialogue",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  34,
+        "Title":  "Fake Sponge B Ob Dream After",
+        "Location":  "Bikini Bottom",
+        "Kind":  "Dialogue",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  35,
+        "Title":  "Information - Bash Button Reminder",
+        "Location":  "Bikini Bottom",
+        "Kind":  "Information",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  36,
+        "Title":  "Information - Floor Button Reminder",
+        "Location":  "Bikini Bottom",
+        "Kind":  "Information",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  37,
+        "Title":  "Mr. Krabs Briefing (variant 1)",
+        "Location":  "Bikini Bottom",
+        "Kind":  "Dialogue",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  38,
+        "Title":  "Mr. Krabs Briefing2",
+        "Location":  "Bikini Bottom",
+        "Kind":  "Dialogue",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  39,
+        "Title":  "Mr. Krabs Briefing3",
+        "Location":  "Bikini Bottom",
+        "Kind":  "Dialogue",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  40,
+        "Title":  "Mr. Krabs Spatula1",
+        "Location":  "Bikini Bottom",
+        "Kind":  "Dialogue",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  41,
+        "Title":  "Mr. Krabs Spatula1 (alternative)",
+        "Location":  "Bikini Bottom",
+        "Kind":  "Dialogue",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  42,
+        "Title":  "Mr. Krabs Spatula1 2",
+        "Location":  "Bikini Bottom",
+        "Kind":  "Dialogue",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  43,
+        "Title":  "Mr. Krabs Spatula1 2 (alternative)",
+        "Location":  "Bikini Bottom",
+        "Kind":  "Dialogue",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  44,
+        "Title":  "Mr. Krabs Spatula1 3",
+        "Location":  "Bikini Bottom",
+        "Kind":  "Dialogue",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  45,
+        "Title":  "Mr. Krabs Spatula1 3 (alternative)",
+        "Location":  "Bikini Bottom",
+        "Kind":  "Dialogue",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  46,
+        "Title":  "Mr. Krabs Spatula2",
+        "Location":  "Bikini Bottom",
+        "Kind":  "Dialogue",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  47,
+        "Title":  "Mr. Krabs Spatula2 (alternative)",
+        "Location":  "Bikini Bottom",
+        "Kind":  "Dialogue",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  48,
+        "Title":  "Mr. Krabs Spatula2 2",
+        "Location":  "Bikini Bottom",
+        "Kind":  "Dialogue",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  49,
+        "Title":  "Mr. Krabs Spatula2 2 (alternative)",
+        "Location":  "Bikini Bottom",
+        "Kind":  "Dialogue",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  50,
+        "Title":  "Mr. Krabs Spatula2 3",
+        "Location":  "Bikini Bottom",
+        "Kind":  "Dialogue",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  51,
+        "Title":  "Mr. Krabs Spatula2 3 (alternative)",
+        "Location":  "Bikini Bottom",
+        "Kind":  "Dialogue",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  52,
+        "Title":  "Mr. Krabs Spatula3",
+        "Location":  "Bikini Bottom",
+        "Kind":  "Dialogue",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  53,
+        "Title":  "Mr. Krabs Spatula3 (alternative)",
+        "Location":  "Bikini Bottom",
+        "Kind":  "Dialogue",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  54,
+        "Title":  "Mr. Krabs Spatula3 2",
+        "Location":  "Bikini Bottom",
+        "Kind":  "Dialogue",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  55,
+        "Title":  "Mr. Krabs Spatula3 2 (alternative)",
+        "Location":  "Bikini Bottom",
+        "Kind":  "Dialogue",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  56,
+        "Title":  "Mr. Krabs Spatula3 3",
+        "Location":  "Bikini Bottom",
+        "Kind":  "Dialogue",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  57,
+        "Title":  "Mr. Krabs Spatula3 3 (alternative)",
+        "Location":  "Bikini Bottom",
+        "Kind":  "Dialogue",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  58,
+        "Title":  "Mr. Krabs Spatula4",
+        "Location":  "Bikini Bottom",
+        "Kind":  "Dialogue",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  59,
+        "Title":  "Mr. Krabs Spatula4 (alternative)",
+        "Location":  "Bikini Bottom",
+        "Kind":  "Dialogue",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  60,
+        "Title":  "Mr. Krabs Spatula4 2",
+        "Location":  "Bikini Bottom",
+        "Kind":  "Dialogue",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  61,
+        "Title":  "Mr. Krabs Spatula4 2 (alternative)",
+        "Location":  "Bikini Bottom",
+        "Kind":  "Dialogue",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  62,
+        "Title":  "Mr. Krabs Spatula4 3",
+        "Location":  "Bikini Bottom",
+        "Kind":  "Dialogue",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  63,
+        "Title":  "Mr. Krabs Spatula4 3 (alternative)",
+        "Location":  "Bikini Bottom",
+        "Kind":  "Dialogue",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  64,
+        "Title":  "Mr. Krabs Spatula5",
+        "Location":  "Bikini Bottom",
+        "Kind":  "Dialogue",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  65,
+        "Title":  "Mr. Krabs Spatula5 (alternative)",
+        "Location":  "Bikini Bottom",
+        "Kind":  "Dialogue",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  66,
+        "Title":  "Mr. Krabs Spatula5 2",
+        "Location":  "Bikini Bottom",
+        "Kind":  "Dialogue",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  67,
+        "Title":  "Mr. Krabs Spatula5 2 (alternative)",
+        "Location":  "Bikini Bottom",
+        "Kind":  "Dialogue",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  68,
+        "Title":  "Mr. Krabs Spatula5 3",
+        "Location":  "Bikini Bottom",
+        "Kind":  "Dialogue",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  69,
+        "Title":  "Mr. Krabs Spatula5 3 (alternative)",
+        "Location":  "Bikini Bottom",
+        "Kind":  "Dialogue",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  70,
+        "Title":  "Mr. Krabs Spatula6",
+        "Location":  "Bikini Bottom",
+        "Kind":  "Dialogue",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  71,
+        "Title":  "Mr. Krabs Spatula6 (alternative)",
+        "Location":  "Bikini Bottom",
+        "Kind":  "Dialogue",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  72,
+        "Title":  "Mr. Krabs Spatula6 2",
+        "Location":  "Bikini Bottom",
+        "Kind":  "Dialogue",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  73,
+        "Title":  "Mr. Krabs Spatula6 2 (alternative)",
+        "Location":  "Bikini Bottom",
+        "Kind":  "Dialogue",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  74,
+        "Title":  "Mr. Krabs Spatula6 3",
+        "Location":  "Bikini Bottom",
+        "Kind":  "Dialogue",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  75,
+        "Title":  "Mr. Krabs Spatula6 3 (alternative)",
+        "Location":  "Bikini Bottom",
+        "Kind":  "Dialogue",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  76,
+        "Title":  "Mr. Krabs Spatula7",
+        "Location":  "Bikini Bottom",
+        "Kind":  "Dialogue",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  77,
+        "Title":  "Mr. Krabs Spatula7 (alternative)",
+        "Location":  "Bikini Bottom",
+        "Kind":  "Dialogue",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  78,
+        "Title":  "Mr. Krabs Spatula7 2",
+        "Location":  "Bikini Bottom",
+        "Kind":  "Dialogue",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  79,
+        "Title":  "Mr. Krabs Spatula7 2 (alternative)",
+        "Location":  "Bikini Bottom",
+        "Kind":  "Dialogue",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  80,
+        "Title":  "Mr. Krabs Spatula7 3",
+        "Location":  "Bikini Bottom",
+        "Kind":  "Dialogue",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  81,
+        "Title":  "Mr. Krabs Spatula7 3 (alternative)",
+        "Location":  "Bikini Bottom",
+        "Kind":  "Dialogue",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  82,
+        "Title":  "Mr. Krabs Spatula8",
+        "Location":  "Bikini Bottom",
+        "Kind":  "Dialogue",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  83,
+        "Title":  "Mr. Krabs Spatula8 (alternative)",
+        "Location":  "Bikini Bottom",
+        "Kind":  "Dialogue",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  84,
+        "Title":  "Mr. Krabs Spatula8 2",
+        "Location":  "Bikini Bottom",
+        "Kind":  "Dialogue",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  85,
+        "Title":  "Mr. Krabs Spatula8 2 (alternative)",
+        "Location":  "Bikini Bottom",
+        "Kind":  "Dialogue",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  86,
+        "Title":  "Mr. Krabs Spatula8 3",
+        "Location":  "Bikini Bottom",
+        "Kind":  "Dialogue",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  87,
+        "Title":  "Mr. Krabs Spatula8 3 (alternative)",
+        "Location":  "Bikini Bottom",
+        "Kind":  "Dialogue",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  88,
+        "Title":  "Mr. Krabs Briefing (variant 2)",
+        "Location":  "Bikini Bottom",
+        "Kind":  "Dialogue",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  89,
+        "Title":  "Mr. Krabs Reminder",
+        "Location":  "Bikini Bottom",
+        "Kind":  "Dialogue",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  90,
+        "Title":  "Mr. Krabs Success",
+        "Location":  "Bikini Bottom",
+        "Kind":  "Dialogue",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  91,
+        "Title":  "Mr. Krabs After",
+        "Location":  "Bikini Bottom",
+        "Kind":  "Dialogue",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  92,
+        "Title":  "Patrick Briefing",
+        "Location":  "Bikini Bottom",
+        "Kind":  "Dialogue",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  93,
+        "Title":  "Patrick Reminder",
+        "Location":  "Bikini Bottom",
+        "Kind":  "Dialogue",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  94,
+        "Title":  "Patrick Reminder (alternative)",
+        "Location":  "Bikini Bottom",
+        "Kind":  "Dialogue",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  95,
+        "Title":  "Patrick Reminder2",
+        "Location":  "Bikini Bottom",
+        "Kind":  "Dialogue",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  96,
+        "Title":  "Patrick Reminder2 (alternative)",
+        "Location":  "Bikini Bottom",
+        "Kind":  "Dialogue",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  97,
+        "Title":  "Patrick Reminder3",
+        "Location":  "Bikini Bottom",
+        "Kind":  "Dialogue",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  98,
+        "Title":  "Patrick Reminder3 (alternative)",
+        "Location":  "Bikini Bottom",
+        "Kind":  "Dialogue",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  99,
+        "Title":  "Patrick Reminder4",
+        "Location":  "Bikini Bottom",
+        "Kind":  "Dialogue",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  100,
+        "Title":  "Patrick Reminder4 (alternative)",
+        "Location":  "Bikini Bottom",
+        "Kind":  "Dialogue",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  101,
+        "Title":  "Patrick Reminder5",
+        "Location":  "Bikini Bottom",
+        "Kind":  "Dialogue",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  102,
+        "Title":  "Patrick Reminder5 (alternative)",
+        "Location":  "Bikini Bottom",
+        "Kind":  "Dialogue",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  103,
+        "Title":  "Patrick Reminder6",
+        "Location":  "Bikini Bottom",
+        "Kind":  "Dialogue",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  104,
+        "Title":  "Patrick Reminder6 (alternative)",
+        "Location":  "Bikini Bottom",
+        "Kind":  "Dialogue",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  105,
+        "Title":  "Patrick Reminder7",
+        "Location":  "Bikini Bottom",
+        "Kind":  "Dialogue",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  106,
+        "Title":  "Patrick Reminder7 (alternative)",
+        "Location":  "Bikini Bottom",
+        "Kind":  "Dialogue",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  107,
+        "Title":  "Patrick Reminder8",
+        "Location":  "Bikini Bottom",
+        "Kind":  "Dialogue",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  108,
+        "Title":  "Patrick Reminder8 (alternative)",
+        "Location":  "Bikini Bottom",
+        "Kind":  "Dialogue",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  109,
+        "Title":  "Patrick End",
+        "Location":  "Bikini Bottom",
+        "Kind":  "Dialogue",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  110,
+        "Title":  "Plankton Briefing (variant 1)",
+        "Location":  "Bikini Bottom",
+        "Kind":  "Dialogue",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  111,
+        "Title":  "Plankton Briefing (variant 2)",
+        "Location":  "Bikini Bottom",
+        "Kind":  "Dialogue",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  112,
+        "Title":  "Plankton Reminder1",
+        "Location":  "Bikini Bottom",
+        "Kind":  "Dialogue",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  113,
+        "Title":  "Plankton After",
+        "Location":  "Bikini Bottom",
+        "Kind":  "Dialogue",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  114,
+        "Title":  "Plankton Briefing (variant 3)",
+        "Location":  "Bikini Bottom",
+        "Kind":  "Dialogue",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  115,
+        "Title":  "Plankton Reminder (variant 1)",
+        "Location":  "Bikini Bottom",
+        "Kind":  "Dialogue",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  116,
+        "Title":  "Plankton Reminder (variant 2)",
+        "Location":  "Bikini Bottom",
+        "Kind":  "Dialogue",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  117,
+        "Title":  "Plankton Reminder",
+        "Location":  "Bikini Bottom",
+        "Kind":  "Dialogue",
+        "Character":  "Patrick"
+    },
+    {
+        "Index":  118,
+        "Title":  "Squidward Briefing",
+        "Location":  "Squidward\u0027s House",
+        "Kind":  "Dialogue",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  119,
+        "Title":  "Squidward Reminder",
+        "Location":  "Squidward\u0027s House",
+        "Kind":  "Dialogue",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  120,
+        "Title":  "Squidward Success",
+        "Location":  "Squidward\u0027s House",
+        "Kind":  "Dialogue",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  121,
+        "Title":  "Squidward After",
+        "Location":  "Squidward\u0027s House",
+        "Kind":  "Dialogue",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  122,
+        "Title":  "Entering Squidward\u0027s house",
+        "Location":  "Squidward\u0027s House",
+        "Kind":  "Reaction",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  123,
+        "Title":  "Entering Patrick\u0027s house",
+        "Location":  "Patrick\u0027s House",
+        "Kind":  "Reaction",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  124,
+        "Title":  "Sandy Briefing",
+        "Location":  "Sandy\u0027s Tree Dome",
+        "Kind":  "Dialogue",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  125,
+        "Title":  "Sandy Reminder",
+        "Location":  "Sandy\u0027s Tree Dome",
+        "Kind":  "Dialogue",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  126,
+        "Title":  "Sandy Success",
+        "Location":  "Sandy\u0027s Tree Dome",
+        "Kind":  "Dialogue",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  127,
+        "Title":  "Sandy After",
+        "Location":  "Sandy\u0027s Tree Dome",
+        "Kind":  "Dialogue",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  128,
+        "Title":  "Walking around Sandy\u0027s tree dome (variant 1)",
+        "Location":  "Sandy\u0027s Tree Dome",
+        "Kind":  "Reaction",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  129,
+        "Title":  "Walking around Sandy\u0027s tree dome (variant 2)",
+        "Location":  "Sandy\u0027s Tree Dome",
+        "Kind":  "Reaction",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  130,
+        "Title":  "Walking around Sandy\u0027s tree dome (variant 3)",
+        "Location":  "Sandy\u0027s Tree Dome",
+        "Kind":  "Reaction",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  131,
+        "Title":  "Entering Sandy\u0027s house",
+        "Location":  "Sandy\u0027s Tree Dome",
+        "Kind":  "Reaction",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  132,
+        "Title":  "Barnacle Boy Briefing",
+        "Location":  "Shady Shoals Rest Home",
+        "Kind":  "Dialogue",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  133,
+        "Title":  "Barnacle Boy Reminder",
+        "Location":  "Shady Shoals Rest Home",
+        "Kind":  "Dialogue",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  134,
+        "Title":  "Mermaid Man Confirm",
+        "Location":  "Shady Shoals Rest Home",
+        "Kind":  "Dialogue",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  135,
+        "Title":  "Mermaid Man Confirm2",
+        "Location":  "Shady Shoals Rest Home",
+        "Kind":  "Dialogue",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  136,
+        "Title":  "Information - NC Briefing",
+        "Location":  "Shady Shoals Rest Home",
+        "Kind":  "Information",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  137,
+        "Title":  "Entering Rest Home",
+        "Location":  "Shady Shoals Rest Home",
+        "Kind":  "Reaction",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  138,
+        "Title":  "Entering Krusty Krab",
+        "Location":  "Krusty Krab",
+        "Kind":  "Reaction",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  139,
+        "Title":  "Information - PS 01",
+        "Location":  "Police Station",
+        "Kind":  "Information",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  140,
+        "Title":  "Information - CB 01",
+        "Location":  "Chum Bucket",
+        "Kind":  "Information",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  141,
+        "Title":  "Entering Chum Bucket Lab",
+        "Location":  "Chum Bucket",
+        "Kind":  "Reaction",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  142,
+        "Title":  "Ham-mer introduction",
+        "Location":  "Jellyfish Fields - Area 1",
+        "Kind":  "Cutscene",
+        "Character":  "Multiple speakers"
+    },
+    {
+        "Index":  143,
+        "Title":  "Jellyfish Fields flythrough",
+        "Location":  "Jellyfish Fields - Area 1",
+        "Kind":  "Cutscene",
+        "Character":  "French Narrator"
+    },
+    {
+        "Index":  144,
+        "Title":  "Fodder introduction",
+        "Location":  "Jellyfish Fields - Area 1",
+        "Kind":  "Cutscene",
+        "Character":  "Multiple speakers"
+    },
+    {
+        "Index":  145,
+        "Title":  "Cowa Bungee Gary Briefing",
+        "Location":  "Jellyfish Fields - Area 1",
+        "Kind":  "Dialogue",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  146,
+        "Title":  "Cowa Bungee Gary Briefing",
+        "Location":  "Jellyfish Fields - Area 1",
+        "Kind":  "Dialogue",
+        "Character":  "Patrick"
+    },
+    {
+        "Index":  147,
+        "Title":  "Cowa Bungee Gary Reminder",
+        "Location":  "Jellyfish Fields - Area 1",
+        "Kind":  "Dialogue",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  148,
+        "Title":  "Cowa Bungee Gary Reminder",
+        "Location":  "Jellyfish Fields - Area 1",
+        "Kind":  "Dialogue",
+        "Character":  "Patrick"
+    },
+    {
+        "Index":  149,
+        "Title":  "Cowa Bungee Gary Success",
+        "Location":  "Jellyfish Fields - Area 1",
+        "Kind":  "Dialogue",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  150,
+        "Title":  "Cowa Bungee Gary Success",
+        "Location":  "Jellyfish Fields - Area 1",
+        "Kind":  "Dialogue",
+        "Character":  "Patrick"
+    },
+    {
+        "Index":  151,
+        "Title":  "Information 01",
+        "Location":  "Jellyfish Fields - Area 1",
+        "Kind":  "Information",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  152,
+        "Title":  "Information 02",
+        "Location":  "Jellyfish Fields - Area 1",
+        "Kind":  "Information",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  153,
+        "Title":  "Information - 02 Info Duplicate",
+        "Location":  "Jellyfish Fields - Area 1",
+        "Kind":  "Information",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  154,
+        "Title":  "Information 03",
+        "Location":  "Jellyfish Fields - Area 1",
+        "Kind":  "Information",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  155,
+        "Title":  "Information 04",
+        "Location":  "Jellyfish Fields - Area 1",
+        "Kind":  "Information",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  156,
+        "Title":  "Information 05",
+        "Location":  "Jellyfish Fields - Area 1",
+        "Kind":  "Information",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  157,
+        "Title":  "Information 06",
+        "Location":  "Jellyfish Fields - Area 1",
+        "Kind":  "Information",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  158,
+        "Title":  "Information 07",
+        "Location":  "Jellyfish Fields - Area 1",
+        "Kind":  "Information",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  159,
+        "Title":  "Information 08",
+        "Location":  "Jellyfish Fields - Area 1",
+        "Kind":  "Information",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  160,
+        "Title":  "Squidward Briefing",
+        "Location":  "Jellyfish Fields - Area 1",
+        "Kind":  "Dialogue",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  161,
+        "Title":  "Squidward Reminder",
+        "Location":  "Jellyfish Fields - Area 1",
+        "Kind":  "Dialogue",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  162,
+        "Title":  "Squidward Reminder",
+        "Location":  "Jellyfish Fields - Area 1",
+        "Kind":  "Dialogue",
+        "Character":  "Patrick"
+    },
+    {
+        "Index":  163,
+        "Title":  "Squidward Success",
+        "Location":  "Jellyfish Fields - Area 1",
+        "Kind":  "Dialogue",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  164,
+        "Title":  "Squidward Success",
+        "Location":  "Jellyfish Fields - Area 1",
+        "Kind":  "Dialogue",
+        "Character":  "Patrick"
+    },
+    {
+        "Index":  165,
+        "Title":  "Squidward After",
+        "Location":  "Jellyfish Fields - Area 1",
+        "Kind":  "Dialogue",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  166,
+        "Title":  "Squidward After",
+        "Location":  "Jellyfish Fields - Area 1",
+        "Kind":  "Dialogue",
+        "Character":  "Patrick"
+    },
+    {
+        "Index":  167,
+        "Title":  "Going back to Jellyfish Fields area 1 from Jellyfish Fields area 2 with Patrick",
+        "Location":  "Jellyfish Fields - Area 1",
+        "Kind":  "Reaction",
+        "Character":  "Patrick"
+    },
+    {
+        "Index":  168,
+        "Title":  "Beginning of Jellyfish Fields area 1",
+        "Location":  "Jellyfish Fields - Area 1",
+        "Kind":  "Reaction",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  169,
+        "Title":  "Information 01",
+        "Location":  "Jellyfish Fields - Area 2",
+        "Kind":  "Information",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  170,
+        "Title":  "Information 02",
+        "Location":  "Jellyfish Fields - Area 2",
+        "Kind":  "Information",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  171,
+        "Title":  "Information 03",
+        "Location":  "Jellyfish Fields - Area 2",
+        "Kind":  "Information",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  172,
+        "Title":  "Information 04",
+        "Location":  "Jellyfish Fields - Area 2",
+        "Kind":  "Information",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  173,
+        "Title":  "Information 05",
+        "Location":  "Jellyfish Fields - Area 2",
+        "Kind":  "Information",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  174,
+        "Title":  "Information 06",
+        "Location":  "Jellyfish Fields - Area 2",
+        "Kind":  "Information",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  175,
+        "Title":  "Information 07",
+        "Location":  "Jellyfish Fields - Area 2",
+        "Kind":  "Information",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  176,
+        "Title":  "Information 08",
+        "Location":  "Jellyfish Fields - Area 2",
+        "Kind":  "Information",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  177,
+        "Title":  "Information 09",
+        "Location":  "Jellyfish Fields - Area 2",
+        "Kind":  "Information",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  178,
+        "Title":  "Information 10",
+        "Location":  "Jellyfish Fields - Area 2",
+        "Kind":  "Information",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  179,
+        "Title":  "Information 11",
+        "Location":  "Jellyfish Fields - Area 2",
+        "Kind":  "Information",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  180,
+        "Title":  "Information 12",
+        "Location":  "Jellyfish Fields - Area 2",
+        "Kind":  "Information",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  181,
+        "Title":  "Information 13",
+        "Location":  "Jellyfish Fields - Area 2",
+        "Kind":  "Information",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  182,
+        "Title":  "Information 14",
+        "Location":  "Jellyfish Fields - Area 2",
+        "Kind":  "Information",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  183,
+        "Title":  "Information 15",
+        "Location":  "Jellyfish Fields - Area 2",
+        "Kind":  "Information",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  184,
+        "Title":  "Information 16",
+        "Location":  "Jellyfish Fields - Area 2",
+        "Kind":  "Information",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  185,
+        "Title":  "Information 17",
+        "Location":  "Jellyfish Fields - Area 2",
+        "Kind":  "Information",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  186,
+        "Title":  "Patricks Dilemma Briefing",
+        "Location":  "Jellyfish Fields - Area 2",
+        "Kind":  "Dialogue",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  187,
+        "Title":  "Patricks Dilemma Reminder",
+        "Location":  "Jellyfish Fields - Area 2",
+        "Kind":  "Dialogue",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  188,
+        "Title":  "Patricks Dilemma Success",
+        "Location":  "Jellyfish Fields - Area 2",
+        "Kind":  "Dialogue",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  189,
+        "Title":  "Patricks Dilemma Success",
+        "Location":  "Jellyfish Fields - Area 2",
+        "Kind":  "Dialogue",
+        "Character":  "Patrick"
+    },
+    {
+        "Index":  190,
+        "Title":  "4",
+        "Location":  "Jellyfish Fields - Area 2",
+        "Kind":  "Dialogue",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  191,
+        "Title":  "Plankton Briefing",
+        "Location":  "Jellyfish Fields - Area 2",
+        "Kind":  "Dialogue",
+        "Character":  "Patrick"
+    },
+    {
+        "Index":  192,
+        "Title":  "Plankton Reminder",
+        "Location":  "Jellyfish Fields - Area 2",
+        "Kind":  "Dialogue",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  193,
+        "Title":  "Plankton Reminder",
+        "Location":  "Jellyfish Fields - Area 2",
+        "Kind":  "Dialogue",
+        "Character":  "Patrick"
+    },
+    {
+        "Index":  194,
+        "Title":  "Plankton Success",
+        "Location":  "Jellyfish Fields - Area 2",
+        "Kind":  "Dialogue",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  195,
+        "Title":  "Plankton Success",
+        "Location":  "Jellyfish Fields - Area 2",
+        "Kind":  "Dialogue",
+        "Character":  "Patrick"
+    },
+    {
+        "Index":  196,
+        "Title":  "Entering Jellyfish Fields area 2 tunnel",
+        "Location":  "Jellyfish Fields - Area 2",
+        "Kind":  "Reaction",
+        "Character":  "Patrick"
+    },
+    {
+        "Index":  197,
+        "Title":  "After slide in Jellyfish Fields area 2",
+        "Location":  "Jellyfish Fields - Area 2",
+        "Kind":  "Reaction",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  198,
+        "Title":  "Tar-Tar introduction",
+        "Location":  "Jellyfish Fields - Area 3",
+        "Kind":  "Cutscene",
+        "Character":  "Multiple speakers"
+    },
+    {
+        "Index":  199,
+        "Title":  "Information 01",
+        "Location":  "Jellyfish Fields - Area 3",
+        "Kind":  "Information",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  200,
+        "Title":  "Information 02",
+        "Location":  "Jellyfish Fields - Area 3",
+        "Kind":  "Information",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  201,
+        "Title":  "Information 03",
+        "Location":  "Jellyfish Fields - Area 3",
+        "Kind":  "Information",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  202,
+        "Title":  "Information 04",
+        "Location":  "Jellyfish Fields - Area 3",
+        "Kind":  "Information",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  203,
+        "Title":  "Krabs Briefing",
+        "Location":  "Jellyfish Fields - Area 3",
+        "Kind":  "Dialogue",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  204,
+        "Title":  "Krabs Briefing",
+        "Location":  "Jellyfish Fields - Area 3",
+        "Kind":  "Dialogue",
+        "Character":  "Patrick"
+    },
+    {
+        "Index":  205,
+        "Title":  "Krabs Reminder",
+        "Location":  "Jellyfish Fields - Area 3",
+        "Kind":  "Dialogue",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  206,
+        "Title":  "Krabs Reminder",
+        "Location":  "Jellyfish Fields - Area 3",
+        "Kind":  "Dialogue",
+        "Character":  "Patrick"
+    },
+    {
+        "Index":  207,
+        "Title":  "Krabs Success",
+        "Location":  "Jellyfish Fields - Area 3",
+        "Kind":  "Dialogue",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  208,
+        "Title":  "Krabs Success",
+        "Location":  "Jellyfish Fields - Area 3",
+        "Kind":  "Dialogue",
+        "Character":  "Patrick"
+    },
+    {
+        "Index":  209,
+        "Title":  "Puffs Briefing",
+        "Location":  "Jellyfish Fields - Area 3",
+        "Kind":  "Dialogue",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  210,
+        "Title":  "Puffs Briefing",
+        "Location":  "Jellyfish Fields - Area 3",
+        "Kind":  "Dialogue",
+        "Character":  "Patrick"
+    },
+    {
+        "Index":  211,
+        "Title":  "Puffs Reminder",
+        "Location":  "Jellyfish Fields - Area 3",
+        "Kind":  "Dialogue",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  212,
+        "Title":  "Puffs Reminder",
+        "Location":  "Jellyfish Fields - Area 3",
+        "Kind":  "Dialogue",
+        "Character":  "Patrick"
+    },
+    {
+        "Index":  213,
+        "Title":  "Puffs Success",
+        "Location":  "Jellyfish Fields - Area 3",
+        "Kind":  "Dialogue",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  214,
+        "Title":  "Puffs Success",
+        "Location":  "Jellyfish Fields - Area 3",
+        "Kind":  "Dialogue",
+        "Character":  "Patrick"
+    },
+    {
+        "Index":  215,
+        "Title":  "Tread on the last balancing mesa in Jellyfish Fields area 3",
+        "Location":  "Jellyfish Fields - Area 3",
+        "Kind":  "Reaction",
+        "Character":  "Patrick"
+    },
+    {
+        "Index":  216,
+        "Title":  "King Jellyfish - battle opening",
+        "Location":  "Jellyfish Fields - Area 4",
+        "Kind":  "Cutscene",
+        "Character":  "Multiple speakers"
+    },
+    {
+        "Index":  217,
+        "Title":  "Bubble King Briefing",
+        "Location":  "Jellyfish Fields - Area 4",
+        "Kind":  "Dialogue",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  218,
+        "Title":  "Bubble King Reminder",
+        "Location":  "Jellyfish Fields - Area 4",
+        "Kind":  "Dialogue",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  219,
+        "Title":  "Bubble King Success",
+        "Location":  "Jellyfish Fields - Area 4",
+        "Kind":  "Dialogue",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  220,
+        "Title":  "Larry Briefing",
+        "Location":  "Jellyfish Fields - Area 4",
+        "Kind":  "Dialogue",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  221,
+        "Title":  "Larry Briefing",
+        "Location":  "Jellyfish Fields - Area 4",
+        "Kind":  "Dialogue",
+        "Character":  "Patrick"
+    },
+    {
+        "Index":  222,
+        "Title":  "Larry Reminder",
+        "Location":  "Jellyfish Fields - Area 4",
+        "Kind":  "Dialogue",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  223,
+        "Title":  "Larry Reminder",
+        "Location":  "Jellyfish Fields - Area 4",
+        "Kind":  "Dialogue",
+        "Character":  "Patrick"
+    },
+    {
+        "Index":  224,
+        "Title":  "Larry Debriefing",
+        "Location":  "Jellyfish Fields - Area 4",
+        "Kind":  "Dialogue",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  225,
+        "Title":  "Larry Debriefing",
+        "Location":  "Jellyfish Fields - Area 4",
+        "Kind":  "Dialogue",
+        "Character":  "Patrick"
+    },
+    {
+        "Index":  226,
+        "Title":  "Downtown Bikini Bottom flythrough",
+        "Location":  "Downtown Bikini Bottom - Area 1",
+        "Kind":  "Cutscene",
+        "Character":  "French Narrator"
+    },
+    {
+        "Index":  227,
+        "Title":  "G-Love introduction",
+        "Location":  "Downtown Bikini Bottom - Area 1",
+        "Kind":  "Cutscene",
+        "Character":  "Multiple speakers"
+    },
+    {
+        "Index":  228,
+        "Title":  "Bubble Buddy Briefing",
+        "Location":  "Downtown Bikini Bottom - Area 1",
+        "Kind":  "Dialogue",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  229,
+        "Title":  "Bubble Buddy Briefing",
+        "Location":  "Downtown Bikini Bottom - Area 1",
+        "Kind":  "Dialogue",
+        "Character":  "Sandy"
+    },
+    {
+        "Index":  230,
+        "Title":  "Bubble Buddy Reminder",
+        "Location":  "Downtown Bikini Bottom - Area 1",
+        "Kind":  "Dialogue",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  231,
+        "Title":  "Bubble Buddy Reminder",
+        "Location":  "Downtown Bikini Bottom - Area 1",
+        "Kind":  "Dialogue",
+        "Character":  "Sandy"
+    },
+    {
+        "Index":  232,
+        "Title":  "Bubble Buddy Success",
+        "Location":  "Downtown Bikini Bottom - Area 1",
+        "Kind":  "Dialogue",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  233,
+        "Title":  "Bubble Buddy Success",
+        "Location":  "Downtown Bikini Bottom - Area 1",
+        "Kind":  "Dialogue",
+        "Character":  "Sandy"
+    },
+    {
+        "Index":  234,
+        "Title":  "Gary Briefing",
+        "Location":  "Downtown Bikini Bottom - Area 1",
+        "Kind":  "Dialogue",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  235,
+        "Title":  "Gary Briefing",
+        "Location":  "Downtown Bikini Bottom - Area 1",
+        "Kind":  "Dialogue",
+        "Character":  "Sandy"
+    },
+    {
+        "Index":  236,
+        "Title":  "Gary Reminder",
+        "Location":  "Downtown Bikini Bottom - Area 1",
+        "Kind":  "Dialogue",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  237,
+        "Title":  "Gary Reminder",
+        "Location":  "Downtown Bikini Bottom - Area 1",
+        "Kind":  "Dialogue",
+        "Character":  "Sandy"
+    },
+    {
+        "Index":  238,
+        "Title":  "Information 01",
+        "Location":  "Downtown Bikini Bottom - Area 1",
+        "Kind":  "Information",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  239,
+        "Title":  "Information 02",
+        "Location":  "Downtown Bikini Bottom - Area 1",
+        "Kind":  "Information",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  240,
+        "Title":  "Information 03",
+        "Location":  "Downtown Bikini Bottom - Area 1",
+        "Kind":  "Information",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  241,
+        "Title":  "Information 04",
+        "Location":  "Downtown Bikini Bottom - Area 1",
+        "Kind":  "Information",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  242,
+        "Title":  "Information 05",
+        "Location":  "Downtown Bikini Bottom - Area 1",
+        "Kind":  "Information",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  243,
+        "Title":  "Information 06",
+        "Location":  "Downtown Bikini Bottom - Area 1",
+        "Kind":  "Information",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  244,
+        "Title":  "Information 07",
+        "Location":  "Downtown Bikini Bottom - Area 1",
+        "Kind":  "Information",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  245,
+        "Title":  "Mrs. Puff Briefing",
+        "Location":  "Downtown Bikini Bottom - Area 1",
+        "Kind":  "Dialogue",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  246,
+        "Title":  "Mrs. Puff Briefing",
+        "Location":  "Downtown Bikini Bottom - Area 1",
+        "Kind":  "Dialogue",
+        "Character":  "Sandy"
+    },
+    {
+        "Index":  247,
+        "Title":  "Mrs. Puff Reminder",
+        "Location":  "Downtown Bikini Bottom - Area 1",
+        "Kind":  "Dialogue",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  248,
+        "Title":  "Mrs. Puff Reminder",
+        "Location":  "Downtown Bikini Bottom - Area 1",
+        "Kind":  "Dialogue",
+        "Character":  "Sandy"
+    },
+    {
+        "Index":  249,
+        "Title":  "Mrs. Puff Success",
+        "Location":  "Downtown Bikini Bottom - Area 1",
+        "Kind":  "Dialogue",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  250,
+        "Title":  "Mrs. Puff Success",
+        "Location":  "Downtown Bikini Bottom - Area 1",
+        "Kind":  "Dialogue",
+        "Character":  "Sandy"
+    },
+    {
+        "Index":  251,
+        "Title":  "Mrs. Puff After",
+        "Location":  "Downtown Bikini Bottom - Area 1",
+        "Kind":  "Dialogue",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  252,
+        "Title":  "Mrs. Puff After",
+        "Location":  "Downtown Bikini Bottom - Area 1",
+        "Kind":  "Dialogue",
+        "Character":  "Sandy"
+    },
+    {
+        "Index":  253,
+        "Title":  "Playing with SpongeBob in Downtown Bikini Bottom",
+        "Location":  "Downtown Bikini Bottom - Area 1",
+        "Kind":  "Reaction",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  254,
+        "Title":  "Chuck introduction",
+        "Location":  "Downtown Bikini Bottom - Area 2",
+        "Kind":  "Cutscene",
+        "Character":  "Chuck"
+    },
+    {
+        "Index":  255,
+        "Title":  "Larry Briefing",
+        "Location":  "Downtown Bikini Bottom - Area 2",
+        "Kind":  "Dialogue",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  256,
+        "Title":  "Larry Briefing",
+        "Location":  "Downtown Bikini Bottom - Area 2",
+        "Kind":  "Dialogue",
+        "Character":  "Sandy"
+    },
+    {
+        "Index":  257,
+        "Title":  "Larry Reminder",
+        "Location":  "Downtown Bikini Bottom - Area 2",
+        "Kind":  "Dialogue",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  258,
+        "Title":  "Larry Reminder",
+        "Location":  "Downtown Bikini Bottom - Area 2",
+        "Kind":  "Dialogue",
+        "Character":  "Sandy"
+    },
+    {
+        "Index":  259,
+        "Title":  "Larry Success",
+        "Location":  "Downtown Bikini Bottom - Area 2",
+        "Kind":  "Dialogue",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  260,
+        "Title":  "Larry Success",
+        "Location":  "Downtown Bikini Bottom - Area 2",
+        "Kind":  "Dialogue",
+        "Character":  "Sandy"
+    },
+    {
+        "Index":  261,
+        "Title":  "Larry After",
+        "Location":  "Downtown Bikini Bottom - Area 2",
+        "Kind":  "Dialogue",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  262,
+        "Title":  "Larry After",
+        "Location":  "Downtown Bikini Bottom - Area 2",
+        "Kind":  "Dialogue",
+        "Character":  "Sandy"
+    },
+    {
+        "Index":  263,
+        "Title":  "Mrs Krabs Briefing",
+        "Location":  "Downtown Bikini Bottom - Area 4",
+        "Kind":  "Dialogue",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  264,
+        "Title":  "Mrs Krabs Briefing",
+        "Location":  "Downtown Bikini Bottom - Area 4",
+        "Kind":  "Dialogue",
+        "Character":  "Sandy"
+    },
+    {
+        "Index":  265,
+        "Title":  "Mrs Krabs Reminder",
+        "Location":  "Downtown Bikini Bottom - Area 4",
+        "Kind":  "Dialogue",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  266,
+        "Title":  "Mrs Krabs Reminder",
+        "Location":  "Downtown Bikini Bottom - Area 4",
+        "Kind":  "Dialogue",
+        "Character":  "Sandy"
+    },
+    {
+        "Index":  267,
+        "Title":  "Mrs Krabs Success",
+        "Location":  "Downtown Bikini Bottom - Area 4",
+        "Kind":  "Dialogue",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  268,
+        "Title":  "Mrs Krabs Success",
+        "Location":  "Downtown Bikini Bottom - Area 4",
+        "Kind":  "Dialogue",
+        "Character":  "Sandy"
+    },
+    {
+        "Index":  269,
+        "Title":  "Mrs Krabs After",
+        "Location":  "Downtown Bikini Bottom - Area 4",
+        "Kind":  "Dialogue",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  270,
+        "Title":  "Mrs Krabs After",
+        "Location":  "Downtown Bikini Bottom - Area 4",
+        "Kind":  "Dialogue",
+        "Character":  "Sandy"
+    },
+    {
+        "Index":  271,
+        "Title":  "Playing in the Needle (Downtown Bikini Bottom area 4)",
+        "Location":  "Downtown Bikini Bottom - Area 4",
+        "Kind":  "Reaction",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  272,
+        "Title":  "Playing with SpongeBob in Downtown Bikini Bottom area 4",
+        "Location":  "Downtown Bikini Bottom - Area 4",
+        "Kind":  "Reaction",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  273,
+        "Title":  "Goo Lagoon flythrough",
+        "Location":  "Goo Lagoon - Area 1",
+        "Kind":  "Cutscene",
+        "Character":  "French Narrator"
+    },
+    {
+        "Index":  274,
+        "Title":  "Monsoon introduction",
+        "Location":  "Goo Lagoon - Area 1",
+        "Kind":  "Cutscene",
+        "Character":  "Multiple speakers"
+    },
+    {
+        "Index":  275,
+        "Title":  "Bubble Sand Castle Briefing",
+        "Location":  "Goo Lagoon - Area 1",
+        "Kind":  "Dialogue",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  276,
+        "Title":  "Bubble Sand Castle Briefing",
+        "Location":  "Goo Lagoon - Area 1",
+        "Kind":  "Dialogue",
+        "Character":  "Patrick"
+    },
+    {
+        "Index":  277,
+        "Title":  "Bubble Sand Castle Reminder",
+        "Location":  "Goo Lagoon - Area 1",
+        "Kind":  "Dialogue",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  278,
+        "Title":  "Bubble Sand Castle Reminder",
+        "Location":  "Goo Lagoon - Area 1",
+        "Kind":  "Dialogue",
+        "Character":  "Patrick"
+    },
+    {
+        "Index":  279,
+        "Title":  "Bubble Sand Castle Success",
+        "Location":  "Goo Lagoon - Area 1",
+        "Kind":  "Dialogue",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  280,
+        "Title":  "Bubble Sand Castle Success",
+        "Location":  "Goo Lagoon - Area 1",
+        "Kind":  "Dialogue",
+        "Character":  "Patrick"
+    },
+    {
+        "Index":  281,
+        "Title":  "Information 01",
+        "Location":  "Goo Lagoon - Area 1",
+        "Kind":  "Information",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  282,
+        "Title":  "Information 02",
+        "Location":  "Goo Lagoon - Area 1",
+        "Kind":  "Information",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  283,
+        "Title":  "Information 03",
+        "Location":  "Goo Lagoon - Area 1",
+        "Kind":  "Information",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  284,
+        "Title":  "Information 04",
+        "Location":  "Goo Lagoon - Area 1",
+        "Kind":  "Information",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  285,
+        "Title":  "Larry Reflector Briefing",
+        "Location":  "Goo Lagoon - Area 1",
+        "Kind":  "Dialogue",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  286,
+        "Title":  "Larry Reflector Briefing",
+        "Location":  "Goo Lagoon - Area 1",
+        "Kind":  "Dialogue",
+        "Character":  "Patrick"
+    },
+    {
+        "Index":  287,
+        "Title":  "Larry Reflector Reminder",
+        "Location":  "Goo Lagoon - Area 1",
+        "Kind":  "Dialogue",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  288,
+        "Title":  "Larry Reflector Reminder",
+        "Location":  "Goo Lagoon - Area 1",
+        "Kind":  "Dialogue",
+        "Character":  "Patrick"
+    },
+    {
+        "Index":  289,
+        "Title":  "Larry Reflector Success",
+        "Location":  "Goo Lagoon - Area 1",
+        "Kind":  "Dialogue",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  290,
+        "Title":  "Larry Reflector Success",
+        "Location":  "Goo Lagoon - Area 1",
+        "Kind":  "Dialogue",
+        "Character":  "Patrick"
+    },
+    {
+        "Index":  291,
+        "Title":  "Larry Reflector After",
+        "Location":  "Goo Lagoon - Area 1",
+        "Kind":  "Dialogue",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  292,
+        "Title":  "Larry Reflector After",
+        "Location":  "Goo Lagoon - Area 1",
+        "Kind":  "Dialogue",
+        "Character":  "Patrick"
+    },
+    {
+        "Index":  293,
+        "Title":  "Mrs. Puff Kids Briefing",
+        "Location":  "Goo Lagoon - Area 1",
+        "Kind":  "Dialogue",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  294,
+        "Title":  "Mrs. Puff Kids Briefing",
+        "Location":  "Goo Lagoon - Area 1",
+        "Kind":  "Dialogue",
+        "Character":  "Patrick"
+    },
+    {
+        "Index":  295,
+        "Title":  "Mrs. Puff Kids Reminder",
+        "Location":  "Goo Lagoon - Area 1",
+        "Kind":  "Dialogue",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  296,
+        "Title":  "Mrs. Puff Kids Reminder",
+        "Location":  "Goo Lagoon - Area 1",
+        "Kind":  "Dialogue",
+        "Character":  "Patrick"
+    },
+    {
+        "Index":  297,
+        "Title":  "Mrs. Puff Kids Success",
+        "Location":  "Goo Lagoon - Area 1",
+        "Kind":  "Dialogue",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  298,
+        "Title":  "Mrs. Puff Kids Success",
+        "Location":  "Goo Lagoon - Area 1",
+        "Kind":  "Dialogue",
+        "Character":  "Patrick"
+    },
+    {
+        "Index":  299,
+        "Title":  "Mrs. Puff Kids After",
+        "Location":  "Goo Lagoon - Area 1",
+        "Kind":  "Dialogue",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  300,
+        "Title":  "Mrs. Puff Kids After",
+        "Location":  "Goo Lagoon - Area 1",
+        "Kind":  "Dialogue",
+        "Character":  "Patrick"
+    },
+    {
+        "Index":  301,
+        "Title":  "Approaching the candy\u0027s stand in Goo Lagoon area 3",
+        "Location":  "Goo Lagoon - Area 1",
+        "Kind":  "Reaction",
+        "Character":  "Patrick"
+    },
+    {
+        "Index":  302,
+        "Title":  "Playing in Goo Lagoon area 1",
+        "Location":  "Goo Lagoon - Area 1",
+        "Kind":  "Reaction",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  303,
+        "Title":  "In the sand castle",
+        "Location":  "Goo Lagoon - Area 1",
+        "Kind":  "Reaction",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  304,
+        "Title":  "Gary Cave Briefing 9",
+        "Location":  "Goo Lagoon - Area 2",
+        "Kind":  "Dialogue",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  305,
+        "Title":  "Gary Cave Briefing 9",
+        "Location":  "Goo Lagoon - Area 2",
+        "Kind":  "Dialogue",
+        "Character":  "Patrick"
+    },
+    {
+        "Index":  306,
+        "Title":  "Gary Cave Reminder",
+        "Location":  "Goo Lagoon - Area 2",
+        "Kind":  "Dialogue",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  307,
+        "Title":  "Gary Cave Reminder",
+        "Location":  "Goo Lagoon - Area 2",
+        "Kind":  "Dialogue",
+        "Character":  "Patrick"
+    },
+    {
+        "Index":  308,
+        "Title":  "Gary Cave Success",
+        "Location":  "Goo Lagoon - Area 2",
+        "Kind":  "Dialogue",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  309,
+        "Title":  "Gary Cave Success",
+        "Location":  "Goo Lagoon - Area 2",
+        "Kind":  "Dialogue",
+        "Character":  "Patrick"
+    },
+    {
+        "Index":  310,
+        "Title":  "Entering Goo Lagoon area 2",
+        "Location":  "Goo Lagoon - Area 2",
+        "Kind":  "Reaction",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  311,
+        "Title":  "Information 01",
+        "Location":  "Goo Lagoon - Area 3",
+        "Kind":  "Information",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  312,
+        "Title":  "Information 02",
+        "Location":  "Goo Lagoon - Area 3",
+        "Kind":  "Information",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  313,
+        "Title":  "Mr. Krabs Robots Briefing",
+        "Location":  "Goo Lagoon - Area 3",
+        "Kind":  "Dialogue",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  314,
+        "Title":  "Mr. Krabs Robots Briefing",
+        "Location":  "Goo Lagoon - Area 3",
+        "Kind":  "Dialogue",
+        "Character":  "Patrick"
+    },
+    {
+        "Index":  315,
+        "Title":  "Mr. Krabs Robots Briefing2",
+        "Location":  "Goo Lagoon - Area 3",
+        "Kind":  "Dialogue",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  316,
+        "Title":  "Mr. Krabs Robots Briefing2",
+        "Location":  "Goo Lagoon - Area 3",
+        "Kind":  "Dialogue",
+        "Character":  "Patrick"
+    },
+    {
+        "Index":  317,
+        "Title":  "Mr. Krabs Robots Reminder",
+        "Location":  "Goo Lagoon - Area 3",
+        "Kind":  "Dialogue",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  318,
+        "Title":  "Mr. Krabs Robots Reminder",
+        "Location":  "Goo Lagoon - Area 3",
+        "Kind":  "Dialogue",
+        "Character":  "Patrick"
+    },
+    {
+        "Index":  319,
+        "Title":  "Mr. Krabs Robots Reminder2",
+        "Location":  "Goo Lagoon - Area 3",
+        "Kind":  "Dialogue",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  320,
+        "Title":  "Mr. Krabs Robots Reminder2",
+        "Location":  "Goo Lagoon - Area 3",
+        "Kind":  "Dialogue",
+        "Character":  "Patrick"
+    },
+    {
+        "Index":  321,
+        "Title":  "Mr. Krabs Robots Success",
+        "Location":  "Goo Lagoon - Area 3",
+        "Kind":  "Dialogue",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  322,
+        "Title":  "Mr. Krabs Robots Success",
+        "Location":  "Goo Lagoon - Area 3",
+        "Kind":  "Dialogue",
+        "Character":  "Patrick"
+    },
+    {
+        "Index":  323,
+        "Title":  "Mr. Krabs Robots After",
+        "Location":  "Goo Lagoon - Area 3",
+        "Kind":  "Dialogue",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  324,
+        "Title":  "Mr. Krabs Robots After",
+        "Location":  "Goo Lagoon - Area 3",
+        "Kind":  "Dialogue",
+        "Character":  "Patrick"
+    },
+    {
+        "Index":  325,
+        "Title":  "Going close to the water in Goo Lagoon area 3 (note that in context that would not be water)",
+        "Location":  "Goo Lagoon - Area 3",
+        "Kind":  "Reaction",
+        "Character":  "Patrick"
+    },
+    {
+        "Index":  326,
+        "Title":  "Playing in Goo Lagoon area 3",
+        "Location":  "Goo Lagoon - Area 3",
+        "Kind":  "Reaction",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  327,
+        "Title":  "Robo-Sandy - battle opening",
+        "Location":  "Poseidome",
+        "Kind":  "Cutscene",
+        "Character":  "Multiple speakers"
+    },
+    {
+        "Index":  328,
+        "Title":  "Robo-Sandy - phase 2",
+        "Location":  "Poseidome",
+        "Kind":  "Cutscene",
+        "Character":  "Multiple speakers"
+    },
+    {
+        "Index":  329,
+        "Title":  "Robo-Sandy - phase 3",
+        "Location":  "Poseidome",
+        "Kind":  "Cutscene",
+        "Character":  "Multiple speakers"
+    },
+    {
+        "Index":  330,
+        "Title":  "Boss announcement - ooh Sting (shared cue)",
+        "Location":  "Poseidome",
+        "Kind":  "Announcer",
+        "Character":  "Fish Announcer"
+    },
+    {
+        "Index":  331,
+        "Title":  "Boss announcement - Ow Way (shared cue)",
+        "Location":  "Poseidome",
+        "Kind":  "Announcer",
+        "Character":  "Fish Announcer"
+    },
+    {
+        "Index":  332,
+        "Title":  "Boss announcement - Looks Vulnerable",
+        "Location":  "Poseidome",
+        "Kind":  "Announcer",
+        "Character":  "Fish Announcer"
+    },
+    {
+        "Index":  333,
+        "Title":  "Boss announcement - SpongeBob Robot",
+        "Location":  "Poseidome",
+        "Kind":  "Announcer",
+        "Character":  "Fish Announcer"
+    },
+    {
+        "Index":  334,
+        "Title":  "Boss announcement - Bubblebounce Now",
+        "Location":  "Poseidome",
+        "Kind":  "Announcer",
+        "Character":  "Fish Announcer"
+    },
+    {
+        "Index":  335,
+        "Title":  "Boss announcement - Great Reef (shared cue)",
+        "Location":  "Poseidome",
+        "Kind":  "Announcer",
+        "Character":  "Fish Announcer"
+    },
+    {
+        "Index":  336,
+        "Title":  "Boss announcement - Now There (shared cue)",
+        "Location":  "Poseidome",
+        "Kind":  "Announcer",
+        "Character":  "Fish Announcer"
+    },
+    {
+        "Index":  337,
+        "Title":  "Boss announcement - Change Fast (shared cue)",
+        "Location":  "Poseidome",
+        "Kind":  "Announcer",
+        "Character":  "Fish Announcer"
+    },
+    {
+        "Index":  338,
+        "Title":  "Boss announcement - Close Encounters (shared cue)",
+        "Location":  "Poseidome",
+        "Kind":  "Announcer",
+        "Character":  "Fish Announcer"
+    },
+    {
+        "Index":  339,
+        "Title":  "Boss announcement - Patrick Monster",
+        "Location":  "Poseidome",
+        "Kind":  "Announcer",
+        "Character":  "Fish Announcer"
+    },
+    {
+        "Index":  340,
+        "Title":  "Boss announcement - Robot Head",
+        "Location":  "Poseidome",
+        "Kind":  "Announcer",
+        "Character":  "Fish Announcer"
+    },
+    {
+        "Index":  341,
+        "Title":  "Boss announcement - Looks Here",
+        "Location":  "Poseidome",
+        "Kind":  "Announcer",
+        "Character":  "Fish Announcer"
+    },
+    {
+        "Index":  342,
+        "Title":  "Boss announcement - What Point",
+        "Location":  "Poseidome",
+        "Kind":  "Announcer",
+        "Character":  "Fish Announcer"
+    },
+    {
+        "Index":  343,
+        "Title":  "Boss announcement - Shocking Patrick",
+        "Location":  "Poseidome",
+        "Kind":  "Announcer",
+        "Character":  "Fish Announcer"
+    },
+    {
+        "Index":  344,
+        "Title":  "Boss announcement - Flying Err Patrick",
+        "Location":  "Poseidome",
+        "Kind":  "Announcer",
+        "Character":  "Fish Announcer"
+    },
+    {
+        "Index":  345,
+        "Title":  "Boss announcement - Wow Match",
+        "Location":  "Poseidome",
+        "Kind":  "Announcer",
+        "Character":  "Fish Announcer"
+    },
+    {
+        "Index":  346,
+        "Title":  "Boss announcement - Humanity Fishanity (shared cue)",
+        "Location":  "Poseidome",
+        "Kind":  "Announcer",
+        "Character":  "Fish Announcer"
+    },
+    {
+        "Index":  347,
+        "Title":  "Boss announcement - Splne Clothesline",
+        "Location":  "Poseidome",
+        "Kind":  "Announcer",
+        "Character":  "Fish Announcer"
+    },
+    {
+        "Index":  348,
+        "Title":  "Boss announcement - Cant Watch (shared cue)",
+        "Location":  "Poseidome",
+        "Kind":  "Announcer",
+        "Character":  "Fish Announcer"
+    },
+    {
+        "Index":  349,
+        "Title":  "Boss announcement - Opening Openings!",
+        "Location":  "Poseidome",
+        "Kind":  "Announcer",
+        "Character":  "Fish Announcer"
+    },
+    {
+        "Index":  350,
+        "Title":  "Boss announcement - Vulnerabilty Go For It",
+        "Location":  "Poseidome",
+        "Kind":  "Announcer",
+        "Character":  "Fish Announcer"
+    },
+    {
+        "Index":  351,
+        "Title":  "Boss announcement - Bubble Bash Opportunity",
+        "Location":  "Poseidome",
+        "Kind":  "Announcer",
+        "Character":  "Fish Announcer"
+    },
+    {
+        "Index":  352,
+        "Title":  "Boss announcement - Uppercut",
+        "Location":  "Poseidome",
+        "Kind":  "Announcer",
+        "Character":  "Fish Announcer"
+    },
+    {
+        "Index":  353,
+        "Title":  "Boss announcement - Nice Over (shared cue)",
+        "Location":  "Poseidome",
+        "Kind":  "Announcer",
+        "Character":  "Fish Announcer"
+    },
+    {
+        "Index":  354,
+        "Title":  "Boss announcement - Robot Down",
+        "Location":  "Poseidome",
+        "Kind":  "Announcer",
+        "Character":  "Fish Announcer"
+    },
+    {
+        "Index":  355,
+        "Title":  "Robo-Sandy - battle ending",
+        "Location":  "Poseidome",
+        "Kind":  "Cutscene",
+        "Character":  "Multiple speakers"
+    },
+    {
+        "Index":  356,
+        "Title":  "Rock Bottom flythrough",
+        "Location":  "Rock Bottom - Area 1",
+        "Kind":  "Cutscene",
+        "Character":  "French Narrator"
+    },
+    {
+        "Index":  357,
+        "Title":  "Sleepy-Time introduction",
+        "Location":  "Rock Bottom - Area 1",
+        "Kind":  "Cutscene",
+        "Character":  "Multiple speakers"
+    },
+    {
+        "Index":  358,
+        "Title":  "Bubble Buddy Description",
+        "Location":  "Rock Bottom - Area 1",
+        "Kind":  "Dialogue",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  359,
+        "Title":  "Bubble Buddy Description",
+        "Location":  "Rock Bottom - Area 1",
+        "Kind":  "Dialogue",
+        "Character":  "Sandy"
+    },
+    {
+        "Index":  360,
+        "Title":  "Bubble Buddy Reminder",
+        "Location":  "Rock Bottom - Area 1",
+        "Kind":  "Dialogue",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  361,
+        "Title":  "Bubble Buddy Reminder",
+        "Location":  "Rock Bottom - Area 1",
+        "Kind":  "Dialogue",
+        "Character":  "Sandy"
+    },
+    {
+        "Index":  362,
+        "Title":  "Bubble Buddy After",
+        "Location":  "Rock Bottom - Area 1",
+        "Kind":  "Dialogue",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  363,
+        "Title":  "Bubble Buddy After",
+        "Location":  "Rock Bottom - Area 1",
+        "Kind":  "Dialogue",
+        "Character":  "Sandy"
+    },
+    {
+        "Index":  364,
+        "Title":  "Collapsing Info",
+        "Location":  "Rock Bottom - Area 1",
+        "Kind":  "Dialogue",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  365,
+        "Title":  "Sleepy Time Info",
+        "Location":  "Rock Bottom - Area 1",
+        "Kind":  "Dialogue",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  366,
+        "Title":  "Mr. Krabs Description",
+        "Location":  "Rock Bottom - Area 1",
+        "Kind":  "Dialogue",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  367,
+        "Title":  "Mr. Krabs Description",
+        "Location":  "Rock Bottom - Area 1",
+        "Kind":  "Dialogue",
+        "Character":  "Sandy"
+    },
+    {
+        "Index":  368,
+        "Title":  "Mr. Krabs Reminder",
+        "Location":  "Rock Bottom - Area 1",
+        "Kind":  "Dialogue",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  369,
+        "Title":  "Mr. Krabs Reminder",
+        "Location":  "Rock Bottom - Area 1",
+        "Kind":  "Dialogue",
+        "Character":  "Sandy"
+    },
+    {
+        "Index":  370,
+        "Title":  "Mr. Krabs Success",
+        "Location":  "Rock Bottom - Area 1",
+        "Kind":  "Dialogue",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  371,
+        "Title":  "Mr. Krabs Success",
+        "Location":  "Rock Bottom - Area 1",
+        "Kind":  "Dialogue",
+        "Character":  "Sandy"
+    },
+    {
+        "Index":  372,
+        "Title":  "Mr. Krabs After",
+        "Location":  "Rock Bottom - Area 1",
+        "Kind":  "Dialogue",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  373,
+        "Title":  "Mr. Krabs After",
+        "Location":  "Rock Bottom - Area 1",
+        "Kind":  "Dialogue",
+        "Character":  "Sandy"
+    },
+    {
+        "Index":  374,
+        "Title":  "Mrs. Puff Briefing",
+        "Location":  "Rock Bottom - Area 1",
+        "Kind":  "Dialogue",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  375,
+        "Title":  "Mrs. Puff Briefing",
+        "Location":  "Rock Bottom - Area 1",
+        "Kind":  "Dialogue",
+        "Character":  "Sandy"
+    },
+    {
+        "Index":  376,
+        "Title":  "Mrs. Puff Reminder",
+        "Location":  "Rock Bottom - Area 1",
+        "Kind":  "Dialogue",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  377,
+        "Title":  "Mrs. Puff Reminder",
+        "Location":  "Rock Bottom - Area 1",
+        "Kind":  "Dialogue",
+        "Character":  "Sandy"
+    },
+    {
+        "Index":  378,
+        "Title":  "Mrs. Puff Success",
+        "Location":  "Rock Bottom - Area 1",
+        "Kind":  "Dialogue",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  379,
+        "Title":  "Mrs. Puff Success",
+        "Location":  "Rock Bottom - Area 1",
+        "Kind":  "Dialogue",
+        "Character":  "Sandy"
+    },
+    {
+        "Index":  380,
+        "Title":  "Mrs. Puff After",
+        "Location":  "Rock Bottom - Area 1",
+        "Kind":  "Dialogue",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  381,
+        "Title":  "Mrs. Puff After",
+        "Location":  "Rock Bottom - Area 1",
+        "Kind":  "Dialogue",
+        "Character":  "Sandy"
+    },
+    {
+        "Index":  382,
+        "Title":  "Barnacle Boy Description",
+        "Location":  "Rock Bottom - Area 2",
+        "Kind":  "Dialogue",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  383,
+        "Title":  "Barnacle Boy Description",
+        "Location":  "Rock Bottom - Area 2",
+        "Kind":  "Dialogue",
+        "Character":  "Sandy"
+    },
+    {
+        "Index":  384,
+        "Title":  "Barnacle Boy Reminder",
+        "Location":  "Rock Bottom - Area 2",
+        "Kind":  "Dialogue",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  385,
+        "Title":  "Barnacle Boy After",
+        "Location":  "Rock Bottom - Area 2",
+        "Kind":  "Dialogue",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  386,
+        "Title":  "Gary Description",
+        "Location":  "Rock Bottom - Area 3",
+        "Kind":  "Dialogue",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  387,
+        "Title":  "Gary Description",
+        "Location":  "Rock Bottom - Area 3",
+        "Kind":  "Dialogue",
+        "Character":  "Sandy"
+    },
+    {
+        "Index":  388,
+        "Title":  "Gary Reminder",
+        "Location":  "Rock Bottom - Area 3",
+        "Kind":  "Dialogue",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  389,
+        "Title":  "Gary Reminder",
+        "Location":  "Rock Bottom - Area 3",
+        "Kind":  "Dialogue",
+        "Character":  "Sandy"
+    },
+    {
+        "Index":  390,
+        "Title":  "Plankton Description",
+        "Location":  "Rock Bottom - Area 3",
+        "Kind":  "Dialogue",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  391,
+        "Title":  "Plankton Description",
+        "Location":  "Rock Bottom - Area 3",
+        "Kind":  "Dialogue",
+        "Character":  "Sandy"
+    },
+    {
+        "Index":  392,
+        "Title":  "Plankton Reminder",
+        "Location":  "Rock Bottom - Area 3",
+        "Kind":  "Dialogue",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  393,
+        "Title":  "Plankton Reminder",
+        "Location":  "Rock Bottom - Area 3",
+        "Kind":  "Dialogue",
+        "Character":  "Sandy"
+    },
+    {
+        "Index":  394,
+        "Title":  "Plankton Completed",
+        "Location":  "Rock Bottom - Area 3",
+        "Kind":  "Dialogue",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  395,
+        "Title":  "Plankton Completed",
+        "Location":  "Rock Bottom - Area 3",
+        "Kind":  "Dialogue",
+        "Character":  "Sandy"
+    },
+    {
+        "Index":  396,
+        "Title":  "Plankton After",
+        "Location":  "Rock Bottom - Area 3",
+        "Kind":  "Dialogue",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  397,
+        "Title":  "Plankton After",
+        "Location":  "Rock Bottom - Area 3",
+        "Kind":  "Dialogue",
+        "Character":  "Sandy"
+    },
+    {
+        "Index":  398,
+        "Title":  "Arf introduction",
+        "Location":  "Mermalair - Area 1",
+        "Kind":  "Cutscene",
+        "Character":  "Arf Dawg"
+    },
+    {
+        "Index":  399,
+        "Title":  "Information - Arf",
+        "Location":  "Mermalair - Area 1",
+        "Kind":  "Information",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  400,
+        "Title":  "Disco Floor Info",
+        "Location":  "Mermalair - Area 1",
+        "Kind":  "Dialogue",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  401,
+        "Title":  "Paddle Wheels Info",
+        "Location":  "Mermalair - Area 1",
+        "Kind":  "Dialogue",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  402,
+        "Title":  "Information - Power Gens",
+        "Location":  "Mermalair - Area 1",
+        "Kind":  "Information",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  403,
+        "Title":  "Information - Trigger Bowl",
+        "Location":  "Mermalair - Area 1",
+        "Kind":  "Information",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  404,
+        "Title":  "Mermaid Man Briefing",
+        "Location":  "Mermalair - Area 1",
+        "Kind":  "Dialogue",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  405,
+        "Title":  "Mermaid Man Reminder",
+        "Location":  "Mermalair - Area 1",
+        "Kind":  "Dialogue",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  406,
+        "Title":  "Mermaid Man Success",
+        "Location":  "Mermalair - Area 1",
+        "Kind":  "Dialogue",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  407,
+        "Title":  "Playing with SpongeBob in Mermalair",
+        "Location":  "Mermalair - Area 1",
+        "Kind":  "Reaction",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  408,
+        "Title":  "Mermalair flythrough",
+        "Location":  "Mermalair - Area 2",
+        "Kind":  "Cutscene",
+        "Character":  "French Narrator"
+    },
+    {
+        "Index":  409,
+        "Title":  "Barnacle Boy Briefing",
+        "Location":  "Mermalair - Area 2",
+        "Kind":  "Dialogue",
+        "Character":  "Patrick"
+    },
+    {
+        "Index":  410,
+        "Title":  "Barnacle Boy Reminder",
+        "Location":  "Mermalair - Area 2",
+        "Kind":  "Dialogue",
+        "Character":  "Patrick"
+    },
+    {
+        "Index":  411,
+        "Title":  "Barnacle Boy Success",
+        "Location":  "Mermalair - Area 2",
+        "Kind":  "Dialogue",
+        "Character":  "Patrick"
+    },
+    {
+        "Index":  412,
+        "Title":  "Barnacle Boy Completed",
+        "Location":  "Mermalair - Area 2",
+        "Kind":  "Dialogue",
+        "Character":  "Patrick"
+    },
+    {
+        "Index":  413,
+        "Title":  "Information - Security",
+        "Location":  "Mermalair - Area 2",
+        "Kind":  "Information",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  414,
+        "Title":  "Mermaid Man Pre Brief",
+        "Location":  "Mermalair - Area 2",
+        "Kind":  "Dialogue",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  415,
+        "Title":  "Mermaid Man Briefing",
+        "Location":  "Mermalair - Area 2",
+        "Kind":  "Dialogue",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  416,
+        "Title":  "Mermaid Man Briefing",
+        "Location":  "Mermalair - Area 2",
+        "Kind":  "Dialogue",
+        "Character":  "Patrick"
+    },
+    {
+        "Index":  417,
+        "Title":  "Mermaid Man Reminder",
+        "Location":  "Mermalair - Area 2",
+        "Kind":  "Dialogue",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  418,
+        "Title":  "Mermaid Man Reminder",
+        "Location":  "Mermalair - Area 2",
+        "Kind":  "Dialogue",
+        "Character":  "Patrick"
+    },
+    {
+        "Index":  419,
+        "Title":  "Mermaid Man Success",
+        "Location":  "Mermalair - Area 2",
+        "Kind":  "Dialogue",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  420,
+        "Title":  "Mermaid Man Success",
+        "Location":  "Mermalair - Area 2",
+        "Kind":  "Dialogue",
+        "Character":  "Patrick"
+    },
+    {
+        "Index":  421,
+        "Title":  "Mermaid Man Completed",
+        "Location":  "Mermalair - Area 2",
+        "Kind":  "Dialogue",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  422,
+        "Title":  "Mermaid Man Completed",
+        "Location":  "Mermalair - Area 2",
+        "Kind":  "Dialogue",
+        "Character":  "Patrick"
+    },
+    {
+        "Index":  423,
+        "Title":  "Computer Briefing",
+        "Location":  "Mermalair - Area 2",
+        "Kind":  "Dialogue",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  424,
+        "Title":  "Computer Reminder",
+        "Location":  "Mermalair - Area 2",
+        "Kind":  "Dialogue",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  425,
+        "Title":  "Computer Success",
+        "Location":  "Mermalair - Area 2",
+        "Kind":  "Dialogue",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  426,
+        "Title":  "Computer Completed",
+        "Location":  "Mermalair - Area 2",
+        "Kind":  "Dialogue",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  427,
+        "Title":  "Computer Resolved",
+        "Location":  "Mermalair - Area 2",
+        "Kind":  "Dialogue",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  428,
+        "Title":  "Squidward Briefing",
+        "Location":  "Mermalair - Area 2",
+        "Kind":  "Dialogue",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  429,
+        "Title":  "Squidward Reminder",
+        "Location":  "Mermalair - Area 2",
+        "Kind":  "Dialogue",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  430,
+        "Title":  "Squidward Reminder",
+        "Location":  "Mermalair - Area 2",
+        "Kind":  "Dialogue",
+        "Character":  "Patrick"
+    },
+    {
+        "Index":  431,
+        "Title":  "Gary Briefing",
+        "Location":  "Mermalair - Area 3",
+        "Kind":  "Dialogue",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  432,
+        "Title":  "Gary Reminder",
+        "Location":  "Mermalair - Area 3",
+        "Kind":  "Dialogue",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  433,
+        "Title":  "Mr. Krabs Briefing",
+        "Location":  "Mermalair - Area 4",
+        "Kind":  "Dialogue",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  434,
+        "Title":  "Mr. Krabs Reminder",
+        "Location":  "Mermalair - Area 4",
+        "Kind":  "Dialogue",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  435,
+        "Title":  "Mr. Krabs Success",
+        "Location":  "Mermalair - Area 4",
+        "Kind":  "Dialogue",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  436,
+        "Title":  "Mr. Krabs Completed",
+        "Location":  "Mermalair - Area 4",
+        "Kind":  "Dialogue",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  437,
+        "Title":  "Prawn - battle opening",
+        "Location":  "Mermalair - Area 5",
+        "Kind":  "Cutscene",
+        "Character":  "Multiple speakers"
+    },
+    {
+        "Index":  438,
+        "Title":  "Prawn - battle ending",
+        "Location":  "Mermalair - Area 5",
+        "Kind":  "Cutscene",
+        "Character":  "Multiple speakers"
+    },
+    {
+        "Index":  439,
+        "Title":  "Sand Mountain flythrough",
+        "Location":  "Sand Mountain - Area 1",
+        "Kind":  "Cutscene",
+        "Character":  "French Narrator"
+    },
+    {
+        "Index":  440,
+        "Title":  "Gary Briefing",
+        "Location":  "Sand Mountain - Area 1",
+        "Kind":  "Dialogue",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  441,
+        "Title":  "Gary Briefing",
+        "Location":  "Sand Mountain - Area 1",
+        "Kind":  "Dialogue",
+        "Character":  "Sandy"
+    },
+    {
+        "Index":  442,
+        "Title":  "Gary Reminder",
+        "Location":  "Sand Mountain - Area 1",
+        "Kind":  "Dialogue",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  443,
+        "Title":  "Gary Reminder",
+        "Location":  "Sand Mountain - Area 1",
+        "Kind":  "Dialogue",
+        "Character":  "Sandy"
+    },
+    {
+        "Index":  444,
+        "Title":  "Gary Success",
+        "Location":  "Sand Mountain - Area 1",
+        "Kind":  "Dialogue",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  445,
+        "Title":  "Gary Success",
+        "Location":  "Sand Mountain - Area 1",
+        "Kind":  "Dialogue",
+        "Character":  "Sandy"
+    },
+    {
+        "Index":  446,
+        "Title":  "Plankton Briefing",
+        "Location":  "Sand Mountain - Area 1",
+        "Kind":  "Dialogue",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  447,
+        "Title":  "Plankton Briefing",
+        "Location":  "Sand Mountain - Area 1",
+        "Kind":  "Dialogue",
+        "Character":  "Sandy"
+    },
+    {
+        "Index":  448,
+        "Title":  "Plankton Reminder",
+        "Location":  "Sand Mountain - Area 1",
+        "Kind":  "Dialogue",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  449,
+        "Title":  "Plankton Reminder",
+        "Location":  "Sand Mountain - Area 1",
+        "Kind":  "Dialogue",
+        "Character":  "Sandy"
+    },
+    {
+        "Index":  450,
+        "Title":  "Plankton Success",
+        "Location":  "Sand Mountain - Area 1",
+        "Kind":  "Dialogue",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  451,
+        "Title":  "Plankton Success",
+        "Location":  "Sand Mountain - Area 1",
+        "Kind":  "Dialogue",
+        "Character":  "Sandy"
+    },
+    {
+        "Index":  452,
+        "Title":  "Squidward Briefing",
+        "Location":  "Sand Mountain - Area 1",
+        "Kind":  "Dialogue",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  453,
+        "Title":  "Squidward Briefing",
+        "Location":  "Sand Mountain - Area 1",
+        "Kind":  "Dialogue",
+        "Character":  "Sandy"
+    },
+    {
+        "Index":  454,
+        "Title":  "Squidward Reminder",
+        "Location":  "Sand Mountain - Area 1",
+        "Kind":  "Dialogue",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  455,
+        "Title":  "Squidward Reminder",
+        "Location":  "Sand Mountain - Area 1",
+        "Kind":  "Dialogue",
+        "Character":  "Sandy"
+    },
+    {
+        "Index":  456,
+        "Title":  "Squidward Success",
+        "Location":  "Sand Mountain - Area 1",
+        "Kind":  "Dialogue",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  457,
+        "Title":  "Squidward Success",
+        "Location":  "Sand Mountain - Area 1",
+        "Kind":  "Dialogue",
+        "Character":  "Sandy"
+    },
+    {
+        "Index":  458,
+        "Title":  "Squidward After",
+        "Location":  "Sand Mountain - Area 1",
+        "Kind":  "Dialogue",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  459,
+        "Title":  "Squidward After",
+        "Location":  "Sand Mountain - Area 1",
+        "Kind":  "Dialogue",
+        "Character":  "Sandy"
+    },
+    {
+        "Index":  460,
+        "Title":  "Mrs. Puff Briefing",
+        "Location":  "Sand Mountain - Area 2",
+        "Kind":  "Dialogue",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  461,
+        "Title":  "Mrs. Puff Briefing",
+        "Location":  "Sand Mountain - Area 2",
+        "Kind":  "Dialogue",
+        "Character":  "Sandy"
+    },
+    {
+        "Index":  462,
+        "Title":  "Mrs. Puff Success",
+        "Location":  "Sand Mountain - Area 2",
+        "Kind":  "Dialogue",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  463,
+        "Title":  "Mrs. Puff Success",
+        "Location":  "Sand Mountain - Area 2",
+        "Kind":  "Dialogue",
+        "Character":  "Sandy"
+    },
+    {
+        "Index":  464,
+        "Title":  "Mrs. Puff After",
+        "Location":  "Sand Mountain - Area 2",
+        "Kind":  "Dialogue",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  465,
+        "Title":  "Mrs. Puff After",
+        "Location":  "Sand Mountain - Area 2",
+        "Kind":  "Dialogue",
+        "Character":  "Sandy"
+    },
+    {
+        "Index":  466,
+        "Title":  "Bubble Buddy B Riefing",
+        "Location":  "Sand Mountain - Area 3",
+        "Kind":  "Dialogue",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  467,
+        "Title":  "Bubble Buddy B Riefing",
+        "Location":  "Sand Mountain - Area 3",
+        "Kind":  "Dialogue",
+        "Character":  "Sandy"
+    },
+    {
+        "Index":  468,
+        "Title":  "Bubble Buddy Success",
+        "Location":  "Sand Mountain - Area 3",
+        "Kind":  "Dialogue",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  469,
+        "Title":  "Bubble Buddy Success",
+        "Location":  "Sand Mountain - Area 3",
+        "Kind":  "Dialogue",
+        "Character":  "Sandy"
+    },
+    {
+        "Index":  470,
+        "Title":  "Bubble Buddy After",
+        "Location":  "Sand Mountain - Area 3",
+        "Kind":  "Dialogue",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  471,
+        "Title":  "Bubble Buddy After",
+        "Location":  "Sand Mountain - Area 3",
+        "Kind":  "Dialogue",
+        "Character":  "Sandy"
+    },
+    {
+        "Index":  472,
+        "Title":  "Larry Briefing",
+        "Location":  "Sand Mountain - Area 4",
+        "Kind":  "Dialogue",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  473,
+        "Title":  "Larry Briefing",
+        "Location":  "Sand Mountain - Area 4",
+        "Kind":  "Dialogue",
+        "Character":  "Sandy"
+    },
+    {
+        "Index":  474,
+        "Title":  "Larry Success",
+        "Location":  "Sand Mountain - Area 4",
+        "Kind":  "Dialogue",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  475,
+        "Title":  "Larry Success",
+        "Location":  "Sand Mountain - Area 4",
+        "Kind":  "Dialogue",
+        "Character":  "Sandy"
+    },
+    {
+        "Index":  476,
+        "Title":  "Larry After",
+        "Location":  "Sand Mountain - Area 4",
+        "Kind":  "Dialogue",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  477,
+        "Title":  "Larry After",
+        "Location":  "Sand Mountain - Area 4",
+        "Kind":  "Dialogue",
+        "Character":  "Sandy"
+    },
+    {
+        "Index":  478,
+        "Title":  "Robo-Patrick - battle opening",
+        "Location":  "Industrial Park",
+        "Kind":  "Cutscene",
+        "Character":  "Multiple speakers"
+    },
+    {
+        "Index":  479,
+        "Title":  "Robo-Patrick - phase 2",
+        "Location":  "Industrial Park",
+        "Kind":  "Cutscene",
+        "Character":  "Multiple speakers"
+    },
+    {
+        "Index":  480,
+        "Title":  "Robo-Patrick - phase 3",
+        "Location":  "Industrial Park",
+        "Kind":  "Cutscene",
+        "Character":  "Multiple speakers"
+    },
+    {
+        "Index":  481,
+        "Title":  "Boss announcement - Bad Attack 2 (shared cue)",
+        "Location":  "Industrial Park",
+        "Kind":  "Announcer",
+        "Character":  "Fish Announcer"
+    },
+    {
+        "Index":  482,
+        "Title":  "Boss announcement - Hit Frost Breath 2",
+        "Location":  "Industrial Park",
+        "Kind":  "Announcer",
+        "Character":  "Fish Announcer"
+    },
+    {
+        "Index":  483,
+        "Title":  "Boss announcement - First Hit Frost Breath",
+        "Location":  "Industrial Park",
+        "Kind":  "Announcer",
+        "Character":  "Fish Announcer"
+    },
+    {
+        "Index":  484,
+        "Title":  "Boss announcement - Hit Frost Breath 1",
+        "Location":  "Industrial Park",
+        "Kind":  "Announcer",
+        "Character":  "Fish Announcer"
+    },
+    {
+        "Index":  485,
+        "Title":  "Boss announcement - First Stun",
+        "Location":  "Industrial Park",
+        "Kind":  "Announcer",
+        "Character":  "Fish Announcer"
+    },
+    {
+        "Index":  486,
+        "Title":  "Boss announcement - Stun 1 (shared cue)",
+        "Location":  "Industrial Park",
+        "Kind":  "Announcer",
+        "Character":  "Fish Announcer"
+    },
+    {
+        "Index":  487,
+        "Title":  "Boss announcement - No Player Damage",
+        "Location":  "Industrial Park",
+        "Kind":  "Announcer",
+        "Character":  "Fish Announcer"
+    },
+    {
+        "Index":  488,
+        "Title":  "Boss announcement - Bubble Hit 2",
+        "Location":  "Industrial Park",
+        "Kind":  "Announcer",
+        "Character":  "Fish Announcer"
+    },
+    {
+        "Index":  489,
+        "Title":  "Boss announcement - Bubble Hit 3",
+        "Location":  "Industrial Park",
+        "Kind":  "Announcer",
+        "Character":  "Fish Announcer"
+    },
+    {
+        "Index":  490,
+        "Title":  "Boss announcement - Take Damage 3 (shared cue)",
+        "Location":  "Industrial Park",
+        "Kind":  "Announcer",
+        "Character":  "Fish Announcer"
+    },
+    {
+        "Index":  491,
+        "Title":  "Boss announcement - P2 Sandy Last HP",
+        "Location":  "Industrial Park",
+        "Kind":  "Announcer",
+        "Character":  "Fish Announcer"
+    },
+    {
+        "Index":  492,
+        "Title":  "Boss announcement - Sandy Swing 1",
+        "Location":  "Industrial Park",
+        "Kind":  "Announcer",
+        "Character":  "Fish Announcer"
+    },
+    {
+        "Index":  493,
+        "Title":  "Boss announcement - First Front Beam",
+        "Location":  "Industrial Park",
+        "Kind":  "Announcer",
+        "Character":  "Fish Announcer"
+    },
+    {
+        "Index":  494,
+        "Title":  "Boss announcement - P2 Start",
+        "Location":  "Industrial Park",
+        "Kind":  "Announcer",
+        "Character":  "Fish Announcer"
+    },
+    {
+        "Index":  495,
+        "Title":  "Boss announcement - Raise Goo",
+        "Location":  "Industrial Park",
+        "Kind":  "Announcer",
+        "Character":  "Fish Announcer"
+    },
+    {
+        "Index":  496,
+        "Title":  "Boss announcement - P3 Start (shared cue)",
+        "Location":  "Industrial Park",
+        "Kind":  "Announcer",
+        "Character":  "Fish Announcer"
+    },
+    {
+        "Index":  497,
+        "Title":  "Boss announcement - Spin 2",
+        "Location":  "Industrial Park",
+        "Kind":  "Announcer",
+        "Character":  "Fish Announcer"
+    },
+    {
+        "Index":  498,
+        "Title":  "Boss announcement - Stun 3",
+        "Location":  "Industrial Park",
+        "Kind":  "Announcer",
+        "Character":  "Fish Announcer"
+    },
+    {
+        "Index":  499,
+        "Title":  "Boss announcement - P3 Stunned",
+        "Location":  "Industrial Park",
+        "Kind":  "Announcer",
+        "Character":  "Fish Announcer"
+    },
+    {
+        "Index":  500,
+        "Title":  "Boss announcement - Stun 2",
+        "Location":  "Industrial Park",
+        "Kind":  "Announcer",
+        "Character":  "Fish Announcer"
+    },
+    {
+        "Index":  501,
+        "Title":  "Boss announcement - Bubble Hit 1",
+        "Location":  "Industrial Park",
+        "Kind":  "Announcer",
+        "Character":  "Fish Announcer"
+    },
+    {
+        "Index":  502,
+        "Title":  "Boss announcement - End Cue",
+        "Location":  "Industrial Park",
+        "Kind":  "Announcer",
+        "Character":  "Fish Announcer"
+    },
+    {
+        "Index":  503,
+        "Title":  "Boss announcement - Fight Start",
+        "Location":  "Industrial Park",
+        "Kind":  "Announcer",
+        "Character":  "Fish Announcer"
+    },
+    {
+        "Index":  504,
+        "Title":  "Boss announcement - Player Hit 1 (shared cue)",
+        "Location":  "Industrial Park",
+        "Kind":  "Announcer",
+        "Character":  "Fish Announcer"
+    },
+    {
+        "Index":  505,
+        "Title":  "Boss announcement - Take Damage 1 (shared cue)",
+        "Location":  "Industrial Park",
+        "Kind":  "Announcer",
+        "Character":  "Fish Announcer"
+    },
+    {
+        "Index":  506,
+        "Title":  "Robo-Patrick - battle ending",
+        "Location":  "Industrial Park",
+        "Kind":  "Cutscene",
+        "Character":  "Multiple speakers"
+    },
+    {
+        "Index":  507,
+        "Title":  "Kelp Forest flythrough",
+        "Location":  "Kelp Forest - Area 1",
+        "Kind":  "Cutscene",
+        "Character":  "French Narrator"
+    },
+    {
+        "Index":  508,
+        "Title":  "Tubelet introduction",
+        "Location":  "Kelp Forest - Area 1",
+        "Kind":  "Cutscene",
+        "Character":  "Not specified"
+    },
+    {
+        "Index":  509,
+        "Title":  "Mrs. Puff Briefing",
+        "Location":  "Kelp Forest - Area 1",
+        "Kind":  "Dialogue",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  510,
+        "Title":  "Mrs. Puff Briefing",
+        "Location":  "Kelp Forest - Area 1",
+        "Kind":  "Dialogue",
+        "Character":  "Patrick"
+    },
+    {
+        "Index":  511,
+        "Title":  "Mrs. Puff Reminder",
+        "Location":  "Kelp Forest - Area 1",
+        "Kind":  "Dialogue",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  512,
+        "Title":  "Mrs. Puff Reminder",
+        "Location":  "Kelp Forest - Area 1",
+        "Kind":  "Dialogue",
+        "Character":  "Patrick"
+    },
+    {
+        "Index":  513,
+        "Title":  "Mrs. Puff Success",
+        "Location":  "Kelp Forest - Area 1",
+        "Kind":  "Dialogue",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  514,
+        "Title":  "Mrs. Puff Success",
+        "Location":  "Kelp Forest - Area 1",
+        "Kind":  "Dialogue",
+        "Character":  "Patrick"
+    },
+    {
+        "Index":  515,
+        "Title":  "Mrs. Puff After",
+        "Location":  "Kelp Forest - Area 1",
+        "Kind":  "Dialogue",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  516,
+        "Title":  "Mrs. Puff After",
+        "Location":  "Kelp Forest - Area 1",
+        "Kind":  "Dialogue",
+        "Character":  "Patrick"
+    },
+    {
+        "Index":  517,
+        "Title":  "Mr. Krabs Briefing",
+        "Location":  "Kelp Forest - Area 2",
+        "Kind":  "Dialogue",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  518,
+        "Title":  "Mr. Krabs Briefing",
+        "Location":  "Kelp Forest - Area 2",
+        "Kind":  "Dialogue",
+        "Character":  "Patrick"
+    },
+    {
+        "Index":  519,
+        "Title":  "Mr. Krabs Reminder",
+        "Location":  "Kelp Forest - Area 2",
+        "Kind":  "Dialogue",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  520,
+        "Title":  "Mr. Krabs Reminder",
+        "Location":  "Kelp Forest - Area 2",
+        "Kind":  "Dialogue",
+        "Character":  "Patrick"
+    },
+    {
+        "Index":  521,
+        "Title":  "Mr. Krabs Success",
+        "Location":  "Kelp Forest - Area 2",
+        "Kind":  "Dialogue",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  522,
+        "Title":  "Mr. Krabs Success",
+        "Location":  "Kelp Forest - Area 2",
+        "Kind":  "Dialogue",
+        "Character":  "Patrick"
+    },
+    {
+        "Index":  523,
+        "Title":  "Barnacle Boy Briefing",
+        "Location":  "Kelp Forest - Area 3",
+        "Kind":  "Dialogue",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  524,
+        "Title":  "Barnacle Boy Briefing",
+        "Location":  "Kelp Forest - Area 3",
+        "Kind":  "Dialogue",
+        "Character":  "Patrick"
+    },
+    {
+        "Index":  525,
+        "Title":  "Barnacle Boy Reminder",
+        "Location":  "Kelp Forest - Area 3",
+        "Kind":  "Dialogue",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  526,
+        "Title":  "Barnacle Boy Reminder",
+        "Location":  "Kelp Forest - Area 3",
+        "Kind":  "Dialogue",
+        "Character":  "Patrick"
+    },
+    {
+        "Index":  527,
+        "Title":  "Barnacle Boy Success",
+        "Location":  "Kelp Forest - Area 3",
+        "Kind":  "Dialogue",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  528,
+        "Title":  "Barnacle Boy Success",
+        "Location":  "Kelp Forest - Area 3",
+        "Kind":  "Dialogue",
+        "Character":  "Patrick"
+    },
+    {
+        "Index":  529,
+        "Title":  "Barnacle Boy After",
+        "Location":  "Kelp Forest - Area 3",
+        "Kind":  "Dialogue",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  530,
+        "Title":  "Barnacle Boy After",
+        "Location":  "Kelp Forest - Area 3",
+        "Kind":  "Dialogue",
+        "Character":  "Patrick"
+    },
+    {
+        "Index":  531,
+        "Title":  "Mermaid Man Briefing",
+        "Location":  "Kelp Forest - Area 4",
+        "Kind":  "Dialogue",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  532,
+        "Title":  "Mermaid Man Briefing",
+        "Location":  "Kelp Forest - Area 4",
+        "Kind":  "Dialogue",
+        "Character":  "Patrick"
+    },
+    {
+        "Index":  533,
+        "Title":  "Mermaid Man Reminder",
+        "Location":  "Kelp Forest - Area 4",
+        "Kind":  "Dialogue",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  534,
+        "Title":  "Mermaid Man Reminder",
+        "Location":  "Kelp Forest - Area 4",
+        "Kind":  "Dialogue",
+        "Character":  "Patrick"
+    },
+    {
+        "Index":  535,
+        "Title":  "Mermaid Man Success",
+        "Location":  "Kelp Forest - Area 4",
+        "Kind":  "Dialogue",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  536,
+        "Title":  "Mermaid Man Success",
+        "Location":  "Kelp Forest - Area 4",
+        "Kind":  "Dialogue",
+        "Character":  "Patrick"
+    },
+    {
+        "Index":  537,
+        "Title":  "Mermaid Man After",
+        "Location":  "Kelp Forest - Area 4",
+        "Kind":  "Dialogue",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  538,
+        "Title":  "Mermaid Man After",
+        "Location":  "Kelp Forest - Area 4",
+        "Kind":  "Dialogue",
+        "Character":  "Patrick"
+    },
+    {
+        "Index":  539,
+        "Title":  "Flying Dutchman\u0027s Graveyard flythrough",
+        "Location":  "Flying Dutchman\u0027s Graveyard - Area 1",
+        "Kind":  "Cutscene",
+        "Character":  "French Narrator"
+    },
+    {
+        "Index":  540,
+        "Title":  "Slick introduction",
+        "Location":  "Flying Dutchman\u0027s Graveyard - Area 1",
+        "Kind":  "Cutscene",
+        "Character":  "Not specified"
+    },
+    {
+        "Index":  541,
+        "Title":  "Dutchman Briefing",
+        "Location":  "Flying Dutchman\u0027s Graveyard - Area 1",
+        "Kind":  "Dialogue",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  542,
+        "Title":  "Dutchman Briefing",
+        "Location":  "Flying Dutchman\u0027s Graveyard - Area 1",
+        "Kind":  "Dialogue",
+        "Character":  "Sandy"
+    },
+    {
+        "Index":  543,
+        "Title":  "Dutchman Reminder",
+        "Location":  "Flying Dutchman\u0027s Graveyard - Area 1",
+        "Kind":  "Dialogue",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  544,
+        "Title":  "Dutchman Reminder",
+        "Location":  "Flying Dutchman\u0027s Graveyard - Area 1",
+        "Kind":  "Dialogue",
+        "Character":  "Sandy"
+    },
+    {
+        "Index":  545,
+        "Title":  "Squidward Briefing",
+        "Location":  "Flying Dutchman\u0027s Graveyard - Area 2",
+        "Kind":  "Dialogue",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  546,
+        "Title":  "Squidward Briefing",
+        "Location":  "Flying Dutchman\u0027s Graveyard - Area 2",
+        "Kind":  "Dialogue",
+        "Character":  "Sandy"
+    },
+    {
+        "Index":  547,
+        "Title":  "Squidward Reminder",
+        "Location":  "Flying Dutchman\u0027s Graveyard - Area 2",
+        "Kind":  "Dialogue",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  548,
+        "Title":  "Squidward Reminder",
+        "Location":  "Flying Dutchman\u0027s Graveyard - Area 2",
+        "Kind":  "Dialogue",
+        "Character":  "Sandy"
+    },
+    {
+        "Index":  549,
+        "Title":  "Squidward After",
+        "Location":  "Flying Dutchman\u0027s Graveyard - Area 2",
+        "Kind":  "Dialogue",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  550,
+        "Title":  "Squidward After",
+        "Location":  "Flying Dutchman\u0027s Graveyard - Area 2",
+        "Kind":  "Dialogue",
+        "Character":  "Sandy"
+    },
+    {
+        "Index":  551,
+        "Title":  "Mr. Krabs Briefing",
+        "Location":  "Flying Dutchman\u0027s Graveyard - Area 3",
+        "Kind":  "Dialogue",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  552,
+        "Title":  "Mr. Krabs Briefing",
+        "Location":  "Flying Dutchman\u0027s Graveyard - Area 3",
+        "Kind":  "Dialogue",
+        "Character":  "Sandy"
+    },
+    {
+        "Index":  553,
+        "Title":  "Mr. Krabs Reminder1",
+        "Location":  "Flying Dutchman\u0027s Graveyard - Area 3",
+        "Kind":  "Dialogue",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  554,
+        "Title":  "Mr. Krabs Reminder1",
+        "Location":  "Flying Dutchman\u0027s Graveyard - Area 3",
+        "Kind":  "Dialogue",
+        "Character":  "Sandy"
+    },
+    {
+        "Index":  555,
+        "Title":  "Mr. Krabs Reminder2",
+        "Location":  "Flying Dutchman\u0027s Graveyard - Area 3",
+        "Kind":  "Dialogue",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  556,
+        "Title":  "Mr. Krabs Reminder2",
+        "Location":  "Flying Dutchman\u0027s Graveyard - Area 3",
+        "Kind":  "Dialogue",
+        "Character":  "Sandy"
+    },
+    {
+        "Index":  557,
+        "Title":  "Mr. Krabs Success",
+        "Location":  "Flying Dutchman\u0027s Graveyard - Area 3",
+        "Kind":  "Dialogue",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  558,
+        "Title":  "Mr. Krabs Success",
+        "Location":  "Flying Dutchman\u0027s Graveyard - Area 3",
+        "Kind":  "Dialogue",
+        "Character":  "Sandy"
+    },
+    {
+        "Index":  559,
+        "Title":  "Flying Dutchman - battle opening",
+        "Location":  "Flying Dutchman\u0027s Graveyard - Area 4",
+        "Kind":  "Cutscene",
+        "Character":  "Multiple speakers"
+    },
+    {
+        "Index":  560,
+        "Title":  "Flying Dutchman - battle ending",
+        "Location":  "Flying Dutchman\u0027s Graveyard - Area 4",
+        "Kind":  "Cutscene",
+        "Character":  "Multiple speakers"
+    },
+    {
+        "Index":  561,
+        "Title":  "SpongeBob\u0027s Dream flythrough",
+        "Location":  "SpongeBob\u0027s Dream - Area 1",
+        "Kind":  "Cutscene",
+        "Character":  "French Narrator"
+    },
+    {
+        "Index":  562,
+        "Title":  "Gary Briefing",
+        "Location":  "SpongeBob\u0027s Dream - Area 1",
+        "Kind":  "Dialogue",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  563,
+        "Title":  "Gary Reminder",
+        "Location":  "SpongeBob\u0027s Dream - Area 1",
+        "Kind":  "Dialogue",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  564,
+        "Title":  "Gary Success",
+        "Location":  "SpongeBob\u0027s Dream - Area 1",
+        "Kind":  "Dialogue",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  565,
+        "Title":  "Gary End",
+        "Location":  "SpongeBob\u0027s Dream - Area 1",
+        "Kind":  "Dialogue",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  566,
+        "Title":  "Larry Briefing",
+        "Location":  "SpongeBob\u0027s Dream - Area 2",
+        "Kind":  "Dialogue",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  567,
+        "Title":  "Larry Briefing",
+        "Location":  "SpongeBob\u0027s Dream - Area 2",
+        "Kind":  "Dialogue",
+        "Character":  "Sandy"
+    },
+    {
+        "Index":  568,
+        "Title":  "Larry Reminder",
+        "Location":  "SpongeBob\u0027s Dream - Area 2",
+        "Kind":  "Dialogue",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  569,
+        "Title":  "Larry Reminder",
+        "Location":  "SpongeBob\u0027s Dream - Area 2",
+        "Kind":  "Dialogue",
+        "Character":  "Sandy"
+    },
+    {
+        "Index":  570,
+        "Title":  "Larry Success",
+        "Location":  "SpongeBob\u0027s Dream - Area 2",
+        "Kind":  "Dialogue",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  571,
+        "Title":  "Larry Success",
+        "Location":  "SpongeBob\u0027s Dream - Area 2",
+        "Kind":  "Dialogue",
+        "Character":  "Sandy"
+    },
+    {
+        "Index":  572,
+        "Title":  "Larry After",
+        "Location":  "SpongeBob\u0027s Dream - Area 2",
+        "Kind":  "Dialogue",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  573,
+        "Title":  "Larry After",
+        "Location":  "SpongeBob\u0027s Dream - Area 2",
+        "Kind":  "Dialogue",
+        "Character":  "Sandy"
+    },
+    {
+        "Index":  574,
+        "Title":  "Plankton Briefing",
+        "Location":  "SpongeBob\u0027s Dream - Area 2",
+        "Kind":  "Dialogue",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  575,
+        "Title":  "Plankton Briefing",
+        "Location":  "SpongeBob\u0027s Dream - Area 2",
+        "Kind":  "Dialogue",
+        "Character":  "Sandy"
+    },
+    {
+        "Index":  576,
+        "Title":  "Plankton Reminder",
+        "Location":  "SpongeBob\u0027s Dream - Area 2",
+        "Kind":  "Dialogue",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  577,
+        "Title":  "Plankton Reminder",
+        "Location":  "SpongeBob\u0027s Dream - Area 2",
+        "Kind":  "Dialogue",
+        "Character":  "Sandy"
+    },
+    {
+        "Index":  578,
+        "Title":  "Plankton Confirmed",
+        "Location":  "SpongeBob\u0027s Dream - Area 2",
+        "Kind":  "Dialogue",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  579,
+        "Title":  "Plankton Confirmed",
+        "Location":  "SpongeBob\u0027s Dream - Area 2",
+        "Kind":  "Dialogue",
+        "Character":  "Sandy"
+    },
+    {
+        "Index":  580,
+        "Title":  "Plankton Success",
+        "Location":  "SpongeBob\u0027s Dream - Area 2",
+        "Kind":  "Dialogue",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  581,
+        "Title":  "Plankton Success",
+        "Location":  "SpongeBob\u0027s Dream - Area 2",
+        "Kind":  "Dialogue",
+        "Character":  "Sandy"
+    },
+    {
+        "Index":  582,
+        "Title":  "Mrs Krabs Briefing",
+        "Location":  "SpongeBob\u0027s Dream - Area 3",
+        "Kind":  "Dialogue",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  583,
+        "Title":  "Mrs Krabs Reminder 1",
+        "Location":  "SpongeBob\u0027s Dream - Area 3",
+        "Kind":  "Dialogue",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  584,
+        "Title":  "Mrs Krabs Reminder 2",
+        "Location":  "SpongeBob\u0027s Dream - Area 3",
+        "Kind":  "Dialogue",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  585,
+        "Title":  "Mrs Krabs Success",
+        "Location":  "SpongeBob\u0027s Dream - Area 3",
+        "Kind":  "Dialogue",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  586,
+        "Title":  "Mrs Krabs After",
+        "Location":  "SpongeBob\u0027s Dream - Area 3",
+        "Kind":  "Dialogue",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  587,
+        "Title":  "Squidward Briefing",
+        "Location":  "SpongeBob\u0027s Dream - Area 4",
+        "Kind":  "Dialogue",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  588,
+        "Title":  "Squidward Reminder 1",
+        "Location":  "SpongeBob\u0027s Dream - Area 4",
+        "Kind":  "Dialogue",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  589,
+        "Title":  "Squidward Success",
+        "Location":  "SpongeBob\u0027s Dream - Area 4",
+        "Kind":  "Dialogue",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  590,
+        "Title":  "Patrick Briefing",
+        "Location":  "SpongeBob\u0027s Dream - Area 6",
+        "Kind":  "Dialogue",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  591,
+        "Title":  "Patrick Success",
+        "Location":  "SpongeBob\u0027s Dream - Area 6",
+        "Kind":  "Dialogue",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  592,
+        "Title":  "Robo-SpongeBob - battle opening",
+        "Location":  "Chum Bucket Lab - Area 2",
+        "Kind":  "Cutscene",
+        "Character":  "Multiple speakers"
+    },
+    {
+        "Index":  593,
+        "Title":  "Robo-SpongeBob - battle transition",
+        "Location":  "Chum Bucket Lab - Area 2",
+        "Kind":  "Cutscene",
+        "Character":  "Multiple speakers"
+    },
+    {
+        "Index":  594,
+        "Title":  "Boss announcement - Start",
+        "Location":  "Chum Bucket Lab - Area 2",
+        "Kind":  "Announcer",
+        "Character":  "Fish Announcer"
+    },
+    {
+        "Index":  595,
+        "Title":  "Boss announcement - P3 Take Damage (shared cue)",
+        "Location":  "Chum Bucket Lab - Area 2",
+        "Kind":  "Announcer",
+        "Character":  "Fish Announcer"
+    },
+    {
+        "Index":  596,
+        "Title":  "Robo-SpongeBob - battle ending",
+        "Location":  "Chum Bucket Lab - Area 2",
+        "Kind":  "Cutscene",
+        "Character":  "Multiple speakers"
+    },
+    {
+        "Index":  597,
+        "Title":  "Boss announcement - Hit Chance",
+        "Location":  "Chum Bucket Lab - Area 3",
+        "Kind":  "Announcer",
+        "Character":  "Fish Announcer"
+    },
+    {
+        "Index":  598,
+        "Title":  "Boss announcement - P3 Start 1",
+        "Location":  "Chum Bucket Lab - Area 3",
+        "Kind":  "Announcer",
+        "Character":  "Fish Announcer"
+    },
+    {
+        "Index":  599,
+        "Title":  "Boss announcement - P3 Start 2",
+        "Location":  "Chum Bucket Lab - Area 3",
+        "Kind":  "Announcer",
+        "Character":  "Fish Announcer"
+    },
+    {
+        "Index":  600,
+        "Title":  "Boss announcement - P3 See Fuse",
+        "Location":  "Chum Bucket Lab - Area 3",
+        "Kind":  "Announcer",
+        "Character":  "Fish Announcer"
+    },
+    {
+        "Index":  601,
+        "Title":  "Boss announcement - P3 Hit Fuse",
+        "Location":  "Chum Bucket Lab - Area 3",
+        "Kind":  "Announcer",
+        "Character":  "Fish Announcer"
+    },
+    {
+        "Index":  602,
+        "Title":  "Boss announcement - P3 Brain Reach 2",
+        "Location":  "Chum Bucket Lab - Area 3",
+        "Kind":  "Announcer",
+        "Character":  "Fish Announcer"
+    },
+    {
+        "Index":  603,
+        "Title":  "Boss announcement - P3 Brain Reach 1",
+        "Location":  "Chum Bucket Lab - Area 3",
+        "Kind":  "Announcer",
+        "Character":  "Fish Announcer"
+    },
+    {
+        "Index":  604,
+        "Title":  "Boss announcement - P3 Brain Attack Hint",
+        "Location":  "Chum Bucket Lab - Area 3",
+        "Kind":  "Announcer",
+        "Character":  "Fish Announcer"
+    },
+    {
+        "Index":  605,
+        "Title":  "Boss announcement - P3 Last Hit Chance",
+        "Location":  "Chum Bucket Lab - Area 3",
+        "Kind":  "Announcer",
+        "Character":  "Fish Announcer"
+    },
+    {
+        "Index":  606,
+        "Title":  "Collect shiny (variant 1)",
+        "Location":  "Multiple locations",
+        "Kind":  "Reaction",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  607,
+        "Title":  "Collect shiny (variant 2)",
+        "Location":  "Multiple locations",
+        "Kind":  "Reaction",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  608,
+        "Title":  "Collect shiny (variant 3)",
+        "Location":  "Multiple locations",
+        "Kind":  "Reaction",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  609,
+        "Title":  "Collect shiny (variant 4)",
+        "Location":  "Multiple locations",
+        "Kind":  "Reaction",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  610,
+        "Title":  "Collect sock (variant 1)",
+        "Location":  "Multiple locations",
+        "Kind":  "Reaction",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  611,
+        "Title":  "Collect sock (variant 2)",
+        "Location":  "Multiple locations",
+        "Kind":  "Reaction",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  612,
+        "Title":  "Collect sock (variant 3)",
+        "Location":  "Multiple locations",
+        "Kind":  "Reaction",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  613,
+        "Title":  "Collects shiny (variant 1)",
+        "Location":  "Multiple locations",
+        "Kind":  "Reaction",
+        "Character":  "Patrick"
+    },
+    {
+        "Index":  614,
+        "Title":  "Collects shiny (variant 2)",
+        "Location":  "Multiple locations",
+        "Kind":  "Reaction",
+        "Character":  "Patrick"
+    },
+    {
+        "Index":  615,
+        "Title":  "Collects shiny (variant 3)",
+        "Location":  "Multiple locations",
+        "Kind":  "Reaction",
+        "Character":  "Patrick"
+    },
+    {
+        "Index":  616,
+        "Title":  "Collects shiny (variant 4)",
+        "Location":  "Multiple locations",
+        "Kind":  "Reaction",
+        "Character":  "Patrick"
+    },
+    {
+        "Index":  617,
+        "Title":  "Collects sock (variant 1)",
+        "Location":  "Multiple locations",
+        "Kind":  "Reaction",
+        "Character":  "Patrick"
+    },
+    {
+        "Index":  618,
+        "Title":  "Collects sock (variant 2)",
+        "Location":  "Multiple locations",
+        "Kind":  "Reaction",
+        "Character":  "Patrick"
+    },
+    {
+        "Index":  619,
+        "Title":  "Collects sock (variant 3)",
+        "Location":  "Multiple locations",
+        "Kind":  "Reaction",
+        "Character":  "Patrick"
+    },
+    {
+        "Index":  620,
+        "Title":  "Collects sock (variant 4)",
+        "Location":  "Multiple locations",
+        "Kind":  "Reaction",
+        "Character":  "Patrick"
+    },
+    {
+        "Index":  621,
+        "Title":  "Collects sock (variant 5)",
+        "Location":  "Multiple locations",
+        "Kind":  "Reaction",
+        "Character":  "Patrick"
+    },
+    {
+        "Index":  622,
+        "Title":  "Collects golden spatula",
+        "Location":  "Multiple locations",
+        "Kind":  "Reaction",
+        "Character":  "Patrick"
+    },
+    {
+        "Index":  623,
+        "Title":  "Damage taken (variant 1)",
+        "Location":  "Multiple locations",
+        "Kind":  "Reaction",
+        "Character":  "Patrick"
+    },
+    {
+        "Index":  624,
+        "Title":  "Damage taken (variant 2)",
+        "Location":  "Multiple locations",
+        "Kind":  "Reaction",
+        "Character":  "Patrick"
+    },
+    {
+        "Index":  625,
+        "Title":  "Damage taken (variant 3)",
+        "Location":  "Multiple locations",
+        "Kind":  "Reaction",
+        "Character":  "Patrick"
+    },
+    {
+        "Index":  626,
+        "Title":  "Damage taken (variant 4)",
+        "Location":  "Multiple locations",
+        "Kind":  "Reaction",
+        "Character":  "Patrick"
+    },
+    {
+        "Index":  627,
+        "Title":  "Collects underpants (variant 1)",
+        "Location":  "Multiple locations",
+        "Kind":  "Reaction",
+        "Character":  "Patrick"
+    },
+    {
+        "Index":  628,
+        "Title":  "Collects underpants (variant 2)",
+        "Location":  "Multiple locations",
+        "Kind":  "Reaction",
+        "Character":  "Patrick"
+    },
+    {
+        "Index":  629,
+        "Title":  "Collects underpants (variant 3)",
+        "Location":  "Multiple locations",
+        "Kind":  "Reaction",
+        "Character":  "Patrick"
+    },
+    {
+        "Index":  630,
+        "Title":  "Pressing trigger (variant 1)",
+        "Location":  "Multiple locations",
+        "Kind":  "Reaction",
+        "Character":  "Patrick"
+    },
+    {
+        "Index":  631,
+        "Title":  "Pressing trigger (variant 2)",
+        "Location":  "Multiple locations",
+        "Kind":  "Reaction",
+        "Character":  "Patrick"
+    },
+    {
+        "Index":  632,
+        "Title":  "Pressing trigger (variant 3)",
+        "Location":  "Multiple locations",
+        "Kind":  "Reaction",
+        "Character":  "Patrick"
+    },
+    {
+        "Index":  633,
+        "Title":  "Pick up throwable (variant 1)",
+        "Location":  "Multiple locations",
+        "Kind":  "Reaction",
+        "Character":  "Patrick"
+    },
+    {
+        "Index":  634,
+        "Title":  "Collects sock (variant 6)",
+        "Location":  "Multiple locations",
+        "Kind":  "Reaction",
+        "Character":  "Patrick"
+    },
+    {
+        "Index":  635,
+        "Title":  "Pick up throwable (variant 2)",
+        "Location":  "Multiple locations",
+        "Kind":  "Reaction",
+        "Character":  "Patrick"
+    },
+    {
+        "Index":  636,
+        "Title":  "Throwing thunder tiki at target (variant 1)",
+        "Location":  "Multiple locations",
+        "Kind":  "Reaction",
+        "Character":  "Patrick"
+    },
+    {
+        "Index":  637,
+        "Title":  "Throwing thunder tiki at target (variant 2)",
+        "Location":  "Multiple locations",
+        "Kind":  "Reaction",
+        "Character":  "Patrick"
+    },
+    {
+        "Index":  638,
+        "Title":  "Destroying a tiki (variant 1)",
+        "Location":  "Multiple locations",
+        "Kind":  "Reaction",
+        "Character":  "Patrick"
+    },
+    {
+        "Index":  639,
+        "Title":  "Making a thunder tiki explode (variant 1)",
+        "Location":  "Multiple locations",
+        "Kind":  "Reaction",
+        "Character":  "Patrick"
+    },
+    {
+        "Index":  640,
+        "Title":  "Making a thunder tiki explode (variant 2)",
+        "Location":  "Multiple locations",
+        "Kind":  "Reaction",
+        "Character":  "Patrick"
+    },
+    {
+        "Index":  641,
+        "Title":  "Making a thunder tiki explode (variant 3)",
+        "Location":  "Multiple locations",
+        "Kind":  "Reaction",
+        "Character":  "Patrick"
+    },
+    {
+        "Index":  642,
+        "Title":  "Killing a robot (variant 1)",
+        "Location":  "Multiple locations",
+        "Kind":  "Reaction",
+        "Character":  "Patrick"
+    },
+    {
+        "Index":  643,
+        "Title":  "Killing a robot (variant 2)",
+        "Location":  "Multiple locations",
+        "Kind":  "Reaction",
+        "Character":  "Patrick"
+    },
+    {
+        "Index":  644,
+        "Title":  "On death (variant 1)",
+        "Location":  "Multiple locations",
+        "Kind":  "Reaction",
+        "Character":  "Patrick"
+    },
+    {
+        "Index":  645,
+        "Title":  "On death (variant 2)",
+        "Location":  "Multiple locations",
+        "Kind":  "Reaction",
+        "Character":  "Patrick"
+    },
+    {
+        "Index":  646,
+        "Title":  "On death (variant 3)",
+        "Location":  "Multiple locations",
+        "Kind":  "Reaction",
+        "Character":  "Patrick"
+    },
+    {
+        "Index":  647,
+        "Title":  "On death (variant 4)",
+        "Location":  "Multiple locations",
+        "Kind":  "Reaction",
+        "Character":  "Patrick"
+    },
+    {
+        "Index":  648,
+        "Title":  "On death (variant 5)",
+        "Location":  "Multiple locations",
+        "Kind":  "Reaction",
+        "Character":  "Patrick"
+    },
+    {
+        "Index":  649,
+        "Title":  "Execute body slam (variant 1)",
+        "Location":  "Multiple locations",
+        "Kind":  "Reaction",
+        "Character":  "Patrick"
+    },
+    {
+        "Index":  650,
+        "Title":  "Execute body slam (variant 2)",
+        "Location":  "Multiple locations",
+        "Kind":  "Reaction",
+        "Character":  "Patrick"
+    },
+    {
+        "Index":  651,
+        "Title":  "Collect world special (item)",
+        "Location":  "Multiple locations",
+        "Kind":  "Reaction",
+        "Character":  "Patrick"
+    },
+    {
+        "Index":  652,
+        "Title":  "Collects shiny (variant 5)",
+        "Location":  "Multiple locations",
+        "Kind":  "Reaction",
+        "Character":  "Patrick"
+    },
+    {
+        "Index":  653,
+        "Title":  "Respawn after death (variant 1)",
+        "Location":  "Multiple locations",
+        "Kind":  "Reaction",
+        "Character":  "Patrick"
+    },
+    {
+        "Index":  654,
+        "Title":  "Respawn after death (variant 2)",
+        "Location":  "Multiple locations",
+        "Kind":  "Reaction",
+        "Character":  "Patrick"
+    },
+    {
+        "Index":  655,
+        "Title":  "Respawn after death (variant 3)",
+        "Location":  "Multiple locations",
+        "Kind":  "Reaction",
+        "Character":  "Patrick"
+    },
+    {
+        "Index":  656,
+        "Title":  "Respawn after death (variant 4)",
+        "Location":  "Multiple locations",
+        "Kind":  "Reaction",
+        "Character":  "Patrick"
+    },
+    {
+        "Index":  657,
+        "Title":  "Respawn after death (variant 5)",
+        "Location":  "Multiple locations",
+        "Kind":  "Reaction",
+        "Character":  "Patrick"
+    },
+    {
+        "Index":  658,
+        "Title":  "Respawn after death (variant 6)",
+        "Location":  "Multiple locations",
+        "Kind":  "Reaction",
+        "Character":  "Patrick"
+    },
+    {
+        "Index":  659,
+        "Title":  "Respawn after death (variant 7)",
+        "Location":  "Multiple locations",
+        "Kind":  "Reaction",
+        "Character":  "Patrick"
+    },
+    {
+        "Index":  660,
+        "Title":  "Respawn after death (variant 8)",
+        "Location":  "Multiple locations",
+        "Kind":  "Reaction",
+        "Character":  "Patrick"
+    },
+    {
+        "Index":  661,
+        "Title":  "Destroying a tiki (variant 2)",
+        "Location":  "Multiple locations",
+        "Kind":  "Reaction",
+        "Character":  "Patrick"
+    },
+    {
+        "Index":  662,
+        "Title":  "Encountering Tubelet (variant 1)",
+        "Location":  "Multiple locations",
+        "Kind":  "Reaction",
+        "Character":  "Patrick"
+    },
+    {
+        "Index":  663,
+        "Title":  "Encountering Sleepy Time (variant 1)",
+        "Location":  "Multiple locations",
+        "Kind":  "Reaction",
+        "Character":  "Patrick"
+    },
+    {
+        "Index":  664,
+        "Title":  "Approaching thunder tiki",
+        "Location":  "Multiple locations",
+        "Kind":  "Reaction",
+        "Character":  "Patrick"
+    },
+    {
+        "Index":  665,
+        "Title":  "Approaching stone tiki",
+        "Location":  "Multiple locations",
+        "Kind":  "Reaction",
+        "Character":  "Patrick"
+    },
+    {
+        "Index":  666,
+        "Title":  "Encountering robots",
+        "Location":  "Multiple locations",
+        "Kind":  "Reaction",
+        "Character":  "Patrick"
+    },
+    {
+        "Index":  667,
+        "Title":  "Encounter Hammer",
+        "Location":  "Multiple locations",
+        "Kind":  "Reaction",
+        "Character":  "Patrick"
+    },
+    {
+        "Index":  668,
+        "Title":  "Encountering tar-tar",
+        "Location":  "Multiple locations",
+        "Kind":  "Reaction",
+        "Character":  "Patrick"
+    },
+    {
+        "Index":  669,
+        "Title":  "Encountering g-love",
+        "Location":  "Multiple locations",
+        "Kind":  "Reaction",
+        "Character":  "Patrick"
+    },
+    {
+        "Index":  670,
+        "Title":  "Encountering Monsoon",
+        "Location":  "Multiple locations",
+        "Kind":  "Reaction",
+        "Character":  "Patrick"
+    },
+    {
+        "Index":  671,
+        "Title":  "Encountering Sleepy Time (variant 2)",
+        "Location":  "Multiple locations",
+        "Kind":  "Reaction",
+        "Character":  "Patrick"
+    },
+    {
+        "Index":  672,
+        "Title":  "Encountering Arf",
+        "Location":  "Multiple locations",
+        "Kind":  "Reaction",
+        "Character":  "Patrick"
+    },
+    {
+        "Index":  673,
+        "Title":  "Encountering Tubelet (variant 2)",
+        "Location":  "Multiple locations",
+        "Kind":  "Reaction",
+        "Character":  "Patrick"
+    },
+    {
+        "Index":  674,
+        "Title":  "Encountering Slick",
+        "Location":  "Multiple locations",
+        "Kind":  "Reaction",
+        "Character":  "Patrick"
+    },
+    {
+        "Index":  675,
+        "Title":  "Press trigger button",
+        "Location":  "Multiple locations",
+        "Kind":  "Reaction",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  676,
+        "Title":  "Collect a shiny object (variant 1)",
+        "Location":  "Multiple locations",
+        "Kind":  "Reaction",
+        "Character":  "Sandy"
+    },
+    {
+        "Index":  677,
+        "Title":  "Collect a shiny object (variant 2)",
+        "Location":  "Multiple locations",
+        "Kind":  "Reaction",
+        "Character":  "Sandy"
+    },
+    {
+        "Index":  678,
+        "Title":  "Collect a shiny object (variant 3)",
+        "Location":  "Multiple locations",
+        "Kind":  "Reaction",
+        "Character":  "Sandy"
+    },
+    {
+        "Index":  679,
+        "Title":  "Collect a shiny object (variant 4)",
+        "Location":  "Multiple locations",
+        "Kind":  "Reaction",
+        "Character":  "Sandy"
+    },
+    {
+        "Index":  680,
+        "Title":  "Collect a shiny object (variant 5)",
+        "Location":  "Multiple locations",
+        "Kind":  "Reaction",
+        "Character":  "Sandy"
+    },
+    {
+        "Index":  681,
+        "Title":  "Collects golden spatula",
+        "Location":  "Multiple locations",
+        "Kind":  "Reaction",
+        "Character":  "Sandy"
+    },
+    {
+        "Index":  682,
+        "Title":  "Damage taken (variant 1)",
+        "Location":  "Multiple locations",
+        "Kind":  "Reaction",
+        "Character":  "Sandy"
+    },
+    {
+        "Index":  683,
+        "Title":  "Damage taken (variant 2)",
+        "Location":  "Multiple locations",
+        "Kind":  "Reaction",
+        "Character":  "Sandy"
+    },
+    {
+        "Index":  684,
+        "Title":  "Damage taken (variant 3)",
+        "Location":  "Multiple locations",
+        "Kind":  "Reaction",
+        "Character":  "Sandy"
+    },
+    {
+        "Index":  685,
+        "Title":  "Damage taken (variant 4)",
+        "Location":  "Multiple locations",
+        "Kind":  "Reaction",
+        "Character":  "Sandy"
+    },
+    {
+        "Index":  686,
+        "Title":  "Collect health (variant 1)",
+        "Location":  "Multiple locations",
+        "Kind":  "Reaction",
+        "Character":  "Sandy"
+    },
+    {
+        "Index":  687,
+        "Title":  "Collect health (variant 2)",
+        "Location":  "Multiple locations",
+        "Kind":  "Reaction",
+        "Character":  "Sandy"
+    },
+    {
+        "Index":  688,
+        "Title":  "Collect health (variant 3)",
+        "Location":  "Multiple locations",
+        "Kind":  "Reaction",
+        "Character":  "Sandy"
+    },
+    {
+        "Index":  689,
+        "Title":  "Push a button (variant 1)",
+        "Location":  "Multiple locations",
+        "Kind":  "Reaction",
+        "Character":  "Sandy"
+    },
+    {
+        "Index":  690,
+        "Title":  "Push a button (variant 2)",
+        "Location":  "Multiple locations",
+        "Kind":  "Reaction",
+        "Character":  "Sandy"
+    },
+    {
+        "Index":  691,
+        "Title":  "Push a button (variant 3)",
+        "Location":  "Multiple locations",
+        "Kind":  "Reaction",
+        "Character":  "Sandy"
+    },
+    {
+        "Index":  692,
+        "Title":  "Attacking (variant 1)",
+        "Location":  "Multiple locations",
+        "Kind":  "Reaction",
+        "Character":  "Sandy"
+    },
+    {
+        "Index":  693,
+        "Title":  "Attacking (variant 2)",
+        "Location":  "Multiple locations",
+        "Kind":  "Reaction",
+        "Character":  "Sandy"
+    },
+    {
+        "Index":  694,
+        "Title":  "Attacking (variant 3)",
+        "Location":  "Multiple locations",
+        "Kind":  "Reaction",
+        "Character":  "Sandy"
+    },
+    {
+        "Index":  695,
+        "Title":  "Attacking (variant 4)",
+        "Location":  "Multiple locations",
+        "Kind":  "Reaction",
+        "Character":  "Sandy"
+    },
+    {
+        "Index":  696,
+        "Title":  "Death (variant 1)",
+        "Location":  "Multiple locations",
+        "Kind":  "Reaction",
+        "Character":  "Sandy"
+    },
+    {
+        "Index":  697,
+        "Title":  "Attacking (variant 5)",
+        "Location":  "Multiple locations",
+        "Kind":  "Reaction",
+        "Character":  "Sandy"
+    },
+    {
+        "Index":  698,
+        "Title":  "Collected a sock (variant 1)",
+        "Location":  "Multiple locations",
+        "Kind":  "Reaction",
+        "Character":  "Sandy"
+    },
+    {
+        "Index":  699,
+        "Title":  "Collected a sock (variant 2)",
+        "Location":  "Multiple locations",
+        "Kind":  "Reaction",
+        "Character":  "Sandy"
+    },
+    {
+        "Index":  700,
+        "Title":  "Collect a world collectible (variant 1)",
+        "Location":  "Multiple locations",
+        "Kind":  "Reaction",
+        "Character":  "Sandy"
+    },
+    {
+        "Index":  701,
+        "Title":  "Collect a world collectible (variant 2)",
+        "Location":  "Multiple locations",
+        "Kind":  "Reaction",
+        "Character":  "Sandy"
+    },
+    {
+        "Index":  702,
+        "Title":  "Destroy a tiki (variant 1)",
+        "Location":  "Multiple locations",
+        "Kind":  "Reaction",
+        "Character":  "Sandy"
+    },
+    {
+        "Index":  703,
+        "Title":  "Destroy a tiki (variant 2)",
+        "Location":  "Multiple locations",
+        "Kind":  "Reaction",
+        "Character":  "Sandy"
+    },
+    {
+        "Index":  704,
+        "Title":  "Destroy a tiki (variant 3)",
+        "Location":  "Multiple locations",
+        "Kind":  "Reaction",
+        "Character":  "Sandy"
+    },
+    {
+        "Index":  705,
+        "Title":  "Destroy a thunder tiki",
+        "Location":  "Multiple locations",
+        "Kind":  "Reaction",
+        "Character":  "Sandy"
+    },
+    {
+        "Index":  706,
+        "Title":  "Destroy a tiki (variant 4)",
+        "Location":  "Multiple locations",
+        "Kind":  "Reaction",
+        "Character":  "Sandy"
+    },
+    {
+        "Index":  707,
+        "Title":  "Destroy an enemy (variant 1)",
+        "Location":  "Multiple locations",
+        "Kind":  "Reaction",
+        "Character":  "Sandy"
+    },
+    {
+        "Index":  708,
+        "Title":  "Destroy an enemy (variant 2)",
+        "Location":  "Multiple locations",
+        "Kind":  "Reaction",
+        "Character":  "Sandy"
+    },
+    {
+        "Index":  709,
+        "Title":  "Destroy an enemy (variant 3)",
+        "Location":  "Multiple locations",
+        "Kind":  "Reaction",
+        "Character":  "Sandy"
+    },
+    {
+        "Index":  710,
+        "Title":  "Death (variant 2)",
+        "Location":  "Multiple locations",
+        "Kind":  "Reaction",
+        "Character":  "Sandy"
+    },
+    {
+        "Index":  711,
+        "Title":  "Death (variant 3)",
+        "Location":  "Multiple locations",
+        "Kind":  "Reaction",
+        "Character":  "Sandy"
+    },
+    {
+        "Index":  712,
+        "Title":  "Death (variant 4)",
+        "Location":  "Multiple locations",
+        "Kind":  "Reaction",
+        "Character":  "Sandy"
+    },
+    {
+        "Index":  713,
+        "Title":  "Death (variant 5)",
+        "Location":  "Multiple locations",
+        "Kind":  "Reaction",
+        "Character":  "Sandy"
+    },
+    {
+        "Index":  714,
+        "Title":  "Lasso an enemy (variant 1)",
+        "Location":  "Multiple locations",
+        "Kind":  "Reaction",
+        "Character":  "Sandy"
+    },
+    {
+        "Index":  715,
+        "Title":  "Lasso an enemy (variant 2)",
+        "Location":  "Multiple locations",
+        "Kind":  "Reaction",
+        "Character":  "Sandy"
+    },
+    {
+        "Index":  716,
+        "Title":  "Lasso an enemy (variant 3)",
+        "Location":  "Multiple locations",
+        "Kind":  "Reaction",
+        "Character":  "Sandy"
+    },
+    {
+        "Index":  717,
+        "Title":  "During lasso helicopter (variant 1)",
+        "Location":  "Multiple locations",
+        "Kind":  "Reaction",
+        "Character":  "Sandy"
+    },
+    {
+        "Index":  718,
+        "Title":  "During lasso helicopter (variant 2)",
+        "Location":  "Multiple locations",
+        "Kind":  "Reaction",
+        "Character":  "Sandy"
+    },
+    {
+        "Index":  719,
+        "Title":  "During lasso helicopter (variant 3)",
+        "Location":  "Multiple locations",
+        "Kind":  "Reaction",
+        "Character":  "Sandy"
+    },
+    {
+        "Index":  720,
+        "Title":  "Respawned (variant 1)",
+        "Location":  "Multiple locations",
+        "Kind":  "Reaction",
+        "Character":  "Sandy"
+    },
+    {
+        "Index":  721,
+        "Title":  "Respawned (variant 2)",
+        "Location":  "Multiple locations",
+        "Kind":  "Reaction",
+        "Character":  "Sandy"
+    },
+    {
+        "Index":  722,
+        "Title":  "Respawned (variant 3)",
+        "Location":  "Multiple locations",
+        "Kind":  "Reaction",
+        "Character":  "Sandy"
+    },
+    {
+        "Index":  723,
+        "Title":  "Respawned (variant 4)",
+        "Location":  "Multiple locations",
+        "Kind":  "Reaction",
+        "Character":  "Sandy"
+    },
+    {
+        "Index":  724,
+        "Title":  "Respawned (variant 5)",
+        "Location":  "Multiple locations",
+        "Kind":  "Reaction",
+        "Character":  "Sandy"
+    },
+    {
+        "Index":  725,
+        "Title":  "Respawned (variant 6)",
+        "Location":  "Multiple locations",
+        "Kind":  "Reaction",
+        "Character":  "Sandy"
+    },
+    {
+        "Index":  726,
+        "Title":  "In combat with fodder",
+        "Location":  "Multiple locations",
+        "Kind":  "Reaction",
+        "Character":  "Sandy"
+    },
+    {
+        "Index":  727,
+        "Title":  "Encountering a Ham-mer",
+        "Location":  "Multiple locations",
+        "Kind":  "Reaction",
+        "Character":  "Sandy"
+    },
+    {
+        "Index":  728,
+        "Title":  "Combat with tar tar",
+        "Location":  "Multiple locations",
+        "Kind":  "Reaction",
+        "Character":  "Sandy"
+    },
+    {
+        "Index":  729,
+        "Title":  "Combat with g.love",
+        "Location":  "Multiple locations",
+        "Kind":  "Reaction",
+        "Character":  "Sandy"
+    },
+    {
+        "Index":  730,
+        "Title":  "Combat with monsoon",
+        "Location":  "Multiple locations",
+        "Kind":  "Reaction",
+        "Character":  "Sandy"
+    },
+    {
+        "Index":  731,
+        "Title":  "Take damage from Sleepy-Time",
+        "Location":  "Multiple locations",
+        "Kind":  "Reaction",
+        "Character":  "Sandy"
+    },
+    {
+        "Index":  732,
+        "Title":  "Combat with tubelet",
+        "Location":  "Multiple locations",
+        "Kind":  "Reaction",
+        "Character":  "Sandy"
+    },
+    {
+        "Index":  733,
+        "Title":  "Combat with slick",
+        "Location":  "Multiple locations",
+        "Kind":  "Reaction",
+        "Character":  "Sandy"
+    },
+    {
+        "Index":  734,
+        "Title":  "Collect spatula",
+        "Location":  "Multiple locations",
+        "Kind":  "Reaction",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  735,
+        "Title":  "Take damage (variant 1)",
+        "Location":  "Multiple locations",
+        "Kind":  "Reaction",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  736,
+        "Title":  "Take damage (variant 2)",
+        "Location":  "Multiple locations",
+        "Kind":  "Reaction",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  737,
+        "Title":  "Take damage (variant 3)",
+        "Location":  "Multiple locations",
+        "Kind":  "Reaction",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  738,
+        "Title":  "Take damage (variant 4)",
+        "Location":  "Multiple locations",
+        "Kind":  "Reaction",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  739,
+        "Title":  "While bungee random triggered (variant 1)",
+        "Location":  "Multiple locations",
+        "Kind":  "Reaction",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  740,
+        "Title":  "While bungee random triggered (variant 2)",
+        "Location":  "Multiple locations",
+        "Kind":  "Reaction",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  741,
+        "Title":  "While bungee random triggered (variant 3)",
+        "Location":  "Multiple locations",
+        "Kind":  "Reaction",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  742,
+        "Title":  "While bungee random triggered (variant 4)",
+        "Location":  "Multiple locations",
+        "Kind":  "Reaction",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  743,
+        "Title":  "While bungee random triggered (variant 5)",
+        "Location":  "Multiple locations",
+        "Kind":  "Reaction",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  744,
+        "Title":  "Beginning a bungee jump",
+        "Location":  "Multiple locations",
+        "Kind":  "Reaction",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  745,
+        "Title":  "Collect shiny (variant 5)",
+        "Location":  "Multiple locations",
+        "Kind":  "Reaction",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  746,
+        "Title":  "Collect world special (item)",
+        "Location":  "Multiple locations",
+        "Kind":  "Reaction",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  747,
+        "Title":  "Collect underpants (variant 1)",
+        "Location":  "Multiple locations",
+        "Kind":  "Reaction",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  748,
+        "Title":  "Collect underpants (variant 2)",
+        "Location":  "Multiple locations",
+        "Kind":  "Reaction",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  749,
+        "Title":  "Collect first gold underpants",
+        "Location":  "Multiple locations",
+        "Kind":  "Reaction",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  750,
+        "Title":  "Collect second gold underpants",
+        "Location":  "Multiple locations",
+        "Kind":  "Reaction",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  751,
+        "Title":  "Collect third gold underpants",
+        "Location":  "Multiple locations",
+        "Kind":  "Reaction",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  752,
+        "Title":  "On death (variant 1)",
+        "Location":  "Multiple locations",
+        "Kind":  "Reaction",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  753,
+        "Title":  "On death (variant 2)",
+        "Location":  "Multiple locations",
+        "Kind":  "Reaction",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  754,
+        "Title":  "On death (variant 3)",
+        "Location":  "Multiple locations",
+        "Kind":  "Reaction",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  755,
+        "Title":  "On death (variant 4)",
+        "Location":  "Multiple locations",
+        "Kind":  "Reaction",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  756,
+        "Title":  "On death (variant 5)",
+        "Location":  "Multiple locations",
+        "Kind":  "Reaction",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  757,
+        "Title":  "On death (variant 6)",
+        "Location":  "Multiple locations",
+        "Kind":  "Reaction",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  758,
+        "Title":  "On death (variant 7)",
+        "Location":  "Multiple locations",
+        "Kind":  "Reaction",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  759,
+        "Title":  "On death (variant 8)",
+        "Location":  "Multiple locations",
+        "Kind":  "Reaction",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  760,
+        "Title":  "On death (variant 9)",
+        "Location":  "Multiple locations",
+        "Kind":  "Reaction",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  761,
+        "Title":  "On death (variant 10)",
+        "Location":  "Multiple locations",
+        "Kind":  "Reaction",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  762,
+        "Title":  "On death (variant 11)",
+        "Location":  "Multiple locations",
+        "Kind":  "Reaction",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  763,
+        "Title":  "On death (variant 12)",
+        "Location":  "Multiple locations",
+        "Kind":  "Reaction",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  764,
+        "Title":  "On death (variant 13)",
+        "Location":  "Multiple locations",
+        "Kind":  "Reaction",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  765,
+        "Title":  "On death (variant 14)",
+        "Location":  "Multiple locations",
+        "Kind":  "Reaction",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  766,
+        "Title":  "On death (variant 15)",
+        "Location":  "Multiple locations",
+        "Kind":  "Reaction",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  767,
+        "Title":  "While bungee random triggered (variant 6)",
+        "Location":  "Multiple locations",
+        "Kind":  "Reaction",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  768,
+        "Title":  "While bungee random triggered (variant 7)",
+        "Location":  "Multiple locations",
+        "Kind":  "Reaction",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  769,
+        "Title":  "While bungee random triggered (variant 8)",
+        "Location":  "Multiple locations",
+        "Kind":  "Reaction",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  770,
+        "Title":  "Activate bubble missile (variant 1)",
+        "Location":  "Multiple locations",
+        "Kind":  "Reaction",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  771,
+        "Title":  "Activate bubble missile (variant 2)",
+        "Location":  "Multiple locations",
+        "Kind":  "Reaction",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  772,
+        "Title":  "Bubble Bowl (variant 1)",
+        "Location":  "Multiple locations",
+        "Kind":  "Reaction",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  773,
+        "Title":  "Bubble Bowl (variant 2)",
+        "Location":  "Multiple locations",
+        "Kind":  "Reaction",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  774,
+        "Title":  "Activate bubble missile (variant 3)",
+        "Location":  "Multiple locations",
+        "Kind":  "Reaction",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  775,
+        "Title":  "Activate bubble missile (variant 4)",
+        "Location":  "Multiple locations",
+        "Kind":  "Reaction",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  776,
+        "Title":  "Bubble Bowl (variant 3)",
+        "Location":  "Multiple locations",
+        "Kind":  "Reaction",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  777,
+        "Title":  "Activate bubble missile (variant 5)",
+        "Location":  "Multiple locations",
+        "Kind":  "Reaction",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  778,
+        "Title":  "On checkpoint respawn after death (variant 1)",
+        "Location":  "Multiple locations",
+        "Kind":  "Reaction",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  779,
+        "Title":  "On checkpoint respawn after death (variant 2)",
+        "Location":  "Multiple locations",
+        "Kind":  "Reaction",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  780,
+        "Title":  "On checkpoint respawn after death (variant 3)",
+        "Location":  "Multiple locations",
+        "Kind":  "Reaction",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  781,
+        "Title":  "On checkpoint respawn after death (variant 4)",
+        "Location":  "Multiple locations",
+        "Kind":  "Reaction",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  782,
+        "Title":  "On checkpoint respawn after death (variant 5)",
+        "Location":  "Multiple locations",
+        "Kind":  "Reaction",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  783,
+        "Title":  "On checkpoint respawn after death (variant 6)",
+        "Location":  "Multiple locations",
+        "Kind":  "Reaction",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  784,
+        "Title":  "On checkpoint respawn after death (variant 7)",
+        "Location":  "Multiple locations",
+        "Kind":  "Reaction",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  785,
+        "Title":  "Spongeball (variant 1)",
+        "Location":  "Multiple locations",
+        "Kind":  "Reaction",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  786,
+        "Title":  "Spongeball (variant 2)",
+        "Location":  "Multiple locations",
+        "Kind":  "Reaction",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  787,
+        "Title":  "Spongeball (variant 3)",
+        "Location":  "Multiple locations",
+        "Kind":  "Reaction",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  788,
+        "Title":  "Enemy hit (variant 1)",
+        "Location":  "Multiple locations",
+        "Kind":  "Reaction",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  789,
+        "Title":  "Enemy hit (variant 2)",
+        "Location":  "Multiple locations",
+        "Kind":  "Reaction",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  790,
+        "Title":  "When Thunder Tiki explode (variant 1)",
+        "Location":  "Multiple locations",
+        "Kind":  "Reaction",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  791,
+        "Title":  "When Thunder Tiki explode (variant 2)",
+        "Location":  "Multiple locations",
+        "Kind":  "Reaction",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  792,
+        "Title":  "When Thunder Tiki explode (variant 3)",
+        "Location":  "Multiple locations",
+        "Kind":  "Reaction",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  793,
+        "Title":  "When Thunder Tiki explode (variant 4)",
+        "Location":  "Multiple locations",
+        "Kind":  "Reaction",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  794,
+        "Title":  "Destroying tiki",
+        "Location":  "Multiple locations",
+        "Kind":  "Reaction",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  795,
+        "Title":  "Encountering a fodder",
+        "Location":  "Multiple locations",
+        "Kind":  "Reaction",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  796,
+        "Title":  "Encountering a Ham-mer",
+        "Location":  "Multiple locations",
+        "Kind":  "Reaction",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  797,
+        "Title":  "Encountering a tartar",
+        "Location":  "Multiple locations",
+        "Kind":  "Reaction",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  798,
+        "Title":  "Encountering G-Love",
+        "Location":  "Multiple locations",
+        "Kind":  "Reaction",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  799,
+        "Title":  "Encountering Monsoon",
+        "Location":  "Multiple locations",
+        "Kind":  "Reaction",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  800,
+        "Title":  "Encountering Monsoon; encountering sleepy time, while sneaking",
+        "Location":  "Multiple locations",
+        "Kind":  "Reaction",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  801,
+        "Title":  "Encountering Arf (and it\u0027s dogs)",
+        "Location":  "Multiple locations",
+        "Kind":  "Reaction",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  802,
+        "Title":  "Encountering Tubelet",
+        "Location":  "Multiple locations",
+        "Kind":  "Reaction",
+        "Character":  "SpongeBob"
+    },
+    {
+        "Index":  803,
+        "Title":  "Encountering Slick",
+        "Location":  "Multiple locations",
+        "Kind":  "Reaction",
+        "Character":  "SpongeBob"
+    }
+]

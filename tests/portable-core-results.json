@@ -1,0 +1,128 @@
+{
+  "schemaVersion": 1,
+  "scope": "Pure Lua5.4 mocked integration using portable core and metadata; no game or live profile writes. Does not verify Unreal callbacks, save API isolation, or audio/camera behavior.",
+  "codeSHA256": {
+    "director.lua": "94624a20a78f2c3f165c6f3844160f964481e01a96644fbba306dc5b3956db1b",
+    "contextual.lua": "e9f1d70e0b18c8bd0b941ba6936f37f0bdce5e347e50500e41a85c0cc03d0115",
+    "playlist.lua": "b13ee392db94c1d28cb74e20430c396ec362b1c1046be43f3a9d63160eece02c",
+    "subtitles.lua": "de36bb0f3f96814e9ddcf693af9ebc1fc1e7d5504d3e1464c2704334dd4d082d"
+  },
+  "passed": true,
+  "tests": [
+    {
+      "name": "cutscenes count and first entry",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "next and previous retain filtered cursor",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "filtered end stops after final cinematic",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "dialogue count and native dispatch use filtered entries",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "repeated active mode does not restart",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "pause resume retains filtered cursor",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "long pause preserves loading and ending timeout budgets",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "source selection803 resets filtered dialogue to all",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "source selection803 resets filtered cutscenes to all",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "all mode clears filter and starts from beginning",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "native manual selection exits filtered playback",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "invalid source selection rejected",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "invalid playlist mode rejected",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "location check mode resets to all",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "watch completes one entry without advancing its source cursor",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "watch navigation keeps single-entry behavior and story clears it",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "invalid watch source cannot start playback",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "session and profile are present in status",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "exact installed loop skips all text-only variants and keeps original order",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "Gary branch retains8 voiced variants from12",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "all and manual native selection keep unvoiced lines",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "runtime subtitle sources resolve without distributed text",
+      "passed": true,
+      "error": null
+    }
+  ],
+  "testCount": 22,
+  "profileMismatchGuardCases": 2,
+  "allLuaParsed": true,
+  "metadataContainsNoTranscriptOrPersonalPaths": true,
+  "knownUISemantics": "watch N plays one entry; story N continues the all playlist from N."
+}

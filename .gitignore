@@ -1,0 +1,13 @@
+dist/
+.cache/
+payload/runtime/
+*.user
+*.log
+*.pdb
+*.mkv
+*.mp4
+Profile/
+backups/
+active-session.json
+installation.json
+preview.png

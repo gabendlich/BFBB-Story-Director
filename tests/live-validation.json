@@ -1,0 +1,39 @@
+{
+  "testedUtcDate": "2026-10-12",
+  "platform": "Windows x64, installed Steam PC game, UE4 4.23",
+  "runtime": "v3.0.1-1164-g5e627997",
+  "sessionHandshake": "passed: fresh launch token and actual engine save directory matched the separate profile",
+  "samples": [
+    {
+      "index": 3,
+      "kind": "native dialogue",
+      "completed": true,
+      "captionsFromInstalledGame": true
+    },
+    {
+      "index": 17,
+      "kind": "contextual reaction",
+      "completed": true,
+      "captionsFromInstalledGame": true
+    },
+    {
+      "index": 20,
+      "kind": "cinematic",
+      "completed": true,
+      "captionsFromInstalledGame": true
+    },
+    {
+      "index": 395,
+      "kind": "native dialogue after map and character change",
+      "completed": true,
+      "captionsFromInstalledGame": true
+    }
+  ],
+  "normalSaves": "All 8 original files retained identical names and SHA-256 hashes before and after the live run.",
+  "scope": "Representative live playback and save-isolation validation. The portable application has not been live-tested against every scene or every game build. Live playback used a pre-existing matching UE4SS proxy; clean installation and interrupted-install recovery are checked separately with fake directories. No personal paths, save files, or dialogue transcript are included in this report.",
+  "bootstrapGuardChecks": [
+    "Ordinary launch remains inactive",
+    "Correct token with wrong actual save directory remains inactive",
+    "Matching token and actual replay save directory activates"
+  ]
+}
